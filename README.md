@@ -199,7 +199,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 #### Relation Extraction
 
 | Paper | Venue | Date |
-|-------|-------|------|
+|:------|:------|:-----|
 | [AutoTrial: Prompting Language Models for Clinical Trial Design](https://doi.org/10.18653/v1/2023.emnlp-main.766) | EMNLP | 2023 |
 | [LeafAI: query generator for clinical cohort discovery rivaling a human programmer](https://doi.org/10.1093/jamia/ocad149) | JAMIA | 2023 |
 | [Controversial Trials First: Identifying Disagreement Between Clinical Guidelines and New Evidence](https://pubmed.ncbi.nlm.nih.gov/35308948/) | AMIA Annu Symp Proc | 2022 |
