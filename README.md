@@ -335,18 +335,18 @@ Here is the Markdown table ordered by year (from latest to earliest):
 |Paper|Venue|Date|
 |:-----|:-----|:-----|
 |[Assessment of a Large Language Model's Responses to Questions and Cases About Glaucoma and Retina Management](https://doi.org/10.1001/jamaophthalmol.2023.6917)|JAMA Ophthalmology|2024|
-|[TriSum: Learning summarization ability from large language models with structured rationale](#)|-|2024|
+|[TriSum: Learning summarization ability from large language models with structured rationale](https://doi.org/10.18653/v1/2024.naacl-long.154)|NAACL|2024|
 |[Generative AI for evidence-based medicine: A PICO GenAI for synthesizing clinical case reports](https://doi.org/10.1109/icc51166.2024.10622271)|IEEE ICC|2024|
-|[Performance of ChatGPT](https://doi.org/10.1007/s00266-024-04005-1)|Aesthetic Plastic Surgery|2024|
-|[Retrieval Augmented Generation enabled generative pre-trained transformer 4 (GPT-4) Performance for Clinical Trial Screening](https://doi.org/10.1101/2024.02.08.24302376)|medRxiv|2024|
+|[Performance of ChatGPT in Answering Clinical Questions on the Practical Guideline of Blepharoptosis](https://doi.org/10.1007/s00266-024-04005-1)|Aesthetic Plastic Surgery|2024|
+|[Retrieval Augmented Generation enabled generative pre-trained transformer 4 (GPT-4) Performance for Clinical Trial Screening](https://doi.org/10.1056/AIoa2400181)|NEJM AI|2024|
 |[Development and evaluation of a large language model of ophthalmology in Chinese](https://doi.org/10.1136/bjo-2023-324526)|British Journal of Ophthalmology|2024|
 |[Exploring ChatGPT's potential in facilitating adaptation of clinical guidelines: A case study of Diabetic Ketoacidosis guidelines](https://doi.org/10.7759/cureus.38784)|Cureus|2023|
-|[MediGPT: Exploring Potentials of Conventional and Large Language Models on Medical Data](https://ieeexplore.ieee.org/document/10599190/)|IEEE|2023|
+|[MediGPT: Exploring Potentials of Conventional and Large Language Models on Medical Data](https://ieeexplore.ieee.org/document/10599190/)|IEEE Access|2023|
 |[Aesthetic surgery advice and counseling from artificial intelligence: A rhinoplasty consultation with ChatGPT](https://doi.org/10.1007/s00266-023-03338-7)|Aesthetic Plastic Surgery|2023|
 |[Exploration of biomedical knowledge for recurrent glioblastoma using natural language processing deep learning models](https://doi.org/10.1186/s12911-022-02003-4)|BMC Medical Informatics and Decision Making|2022|
-|[Creating and evaluating chatbots as eligibility assistants for clinical trials: An active deep learning approach towards user-centered classification](https://doi.org/10.1145/3403575)|ACM|2021|
-|[Knowledge graph based platform of COVID-19 drugs and symptoms](https://doi.org/10.1145/3487351.3489484)|ACM|2021|
-|[MedTruth: A Semi-supervised Approach to Discovering Knowledge Condition Information from Multi-Source Medical Data](https://doi.org/10.1145/3357384.3357934)|ACM|2019|
+|[Creating and evaluating chatbots as eligibility assistants for clinical trials: An active deep learning approach towards user-centered classification](https://doi.org/10.1145/3403575)|ACM Transactions on Computing for Healthcare|2021|
+|[Knowledge graph based platform of COVID-19 drugs and symptoms](https://doi.org/10.1145/3487351.3489484)|ASONAM|2021|
+|[MedTruth: A Semi-supervised Approach to Discovering Knowledge Condition Information from Multi-Source Medical Data](https://doi.org/10.1145/3357384.3357934)|CIKM|2019|
 
 # Acknowledgement
 This project was sponsored by the National Library of Medicine grant R01LM009886, R01LM014344, and R01LM014573.
