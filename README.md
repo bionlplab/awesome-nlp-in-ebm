@@ -9,9 +9,6 @@ The growth of medical literature demands automated tools to support clinicians i
 ## Table of Contents
 
 - [Ask – Search and Question Formulation](#1-ask--search-and-question-formulation)
-  - [Keyword-based search](#keyword-based-search)
-  - [Query generation](#query-generation)
-  - [Clinical question answering](#clinical-question-answering)
 
 - [Acquire – Extracting Evidence](#2-acquire--extracting-evidence)
   - [Entity Extraction and Normalization](#entity-extraction-and-normalization)
