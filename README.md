@@ -212,7 +212,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 
 | Paper | Venue | Date |
 |-------|-------|------|
-| [AutoTrial: Prompting Language Models for Clinical Trial Design](#) | - | 2023 |
+| [AutoTrial: Prompting Language Models for Clinical Trial Design](https://doi.org/10.18653/v1/2023.emnlp-main.766) | EMNLP | 2023 |
 | [LeafAI: query generator for clinical cohort discovery rivaling a human programmer](https://doi.org/10.1093/jamia/ocad149) | JAMIA | 2023 |
 | [Controversial Trials First: Identifying Disagreement Between Clinical Guidelines and New Evidence](#) | - | 2022 |
 | [The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria](https://doi.org/10.1038/s41597-022-01521-0) | Scientific Data | 2022 |
