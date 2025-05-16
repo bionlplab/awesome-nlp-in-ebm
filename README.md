@@ -28,9 +28,6 @@ The growth of medical literature demands automated tools to support clinicians i
 
 - [EBM Benchmark Datasets](#ebm-benchmark-datasets)
 
-# Acknowledgement
-This project was sponsored by the National Library of Medicine grant R01LM009886, R01LM014344, and R01LM014573.
-
 ## NLP techniques for EBM
 
 ### 1. Ask – Search and Question Formulation
@@ -309,3 +306,6 @@ This project was sponsored by the National Library of Medicine grant R01LM009886
 - **Retrieval Augmented Generation enabled generative pre-trained transformer 4 ({GPT-4}) Performance for Clinical Trial Screening** (2024), Unlu, Ozan et al.  (https://doi.org/10.1101/2024.02.08.24302376)
 - **Aesthetic surgery advice and counseling from artificial intelligence: A rhinoplasty consultation with {ChatGPT}** (2023), Xie, Yi et al.  (https://doi.org/10.1007/s00266-023-03338-7)
 - **Development and evaluation of a large language model of ophthalmology in Chinese** (2024), Zheng, Ce et al.  (https://doi.org/10.1136/bjo-2023-324526)
+
+# Acknowledgement
+This project was sponsored by the National Library of Medicine grant R01LM009886, R01LM014344, and R01LM014573.
