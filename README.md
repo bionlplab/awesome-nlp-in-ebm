@@ -1,1042 +1,194 @@
 # Awesome - Natural Language Processing in Support of Evidence-based Medicine
 
-# Acknowledgement
-This project was sponsored by the National Library of Medicine grant R01LM009886, R01LM014344, and R01LM014573.
-
 A curated list of Natural Language Processing (NLP) research papers in the field of Evidence-Based Medicine (EBM).  
 
 This list is based on the scoping review **“Natural Language Processing in Support of Evidence-Based Medicine: A Scoping Review”** (ACL 2025 submission), which surveyed **129 peer-reviewed publications** from 2019–2024.
 
 The growth of medical literature demands automated tools to support clinicians in searching, appraising, synthesizing, and applying evidence in clinical practice. NLP is at the core of this transformation.
 
+## Table of Contents
+
+- [Ask – Search and Question Formulation](#1-ask--search-and-question-formulation)
+  - [Keyword-based search](#keyword-based-search)
+  - [Query generation](#query-generation)
+  - [Clinical question answering](#clinical-question-answering)
+
+- [Acquire – Extracting Evidence](#2-acquire--extracting-evidence)
+  - [Entity Extraction and Normalization](#entity-extraction-and-normalization)
+  - [Relation Extraction](#relation-extraction)
+
+- [Appraise, Synthesize, and Summarization](#3-appraise-synthesize-and-summarization)
+  - [Quality Assessment](#quality-assessment)
+  - [Evidence Ranking and Screening](#evidence-ranking-and-screening)
+  - [Evidence Synthesis](#evidence-synthesis)
+  - [Evidence Summarization](#evidence-summarization)
+
+- [Apply & Assess – Adoption, refinement and research](#4-apply--assess--adoption-refinement-and-research)
+  - [Specialty-Specific adoption](#specialty-specific-adoption)
+  - [Clinical Trial design and identification](#clinical-trial-design-and-identification)
+  - [Drug Repurposing](#drug-repurposing)
+  - [Question Answering](#question-answering)
+
+- [EBM Benchmark Datasets](#ebm-benchmark-datasets)
+
+# Acknowledgement
+This project was sponsored by the National Library of Medicine grant R01LM009886, R01LM014344, and R01LM014573.
 
 ## NLP techniques for EBM
 
-### 1. **Ask** – Search and Question Formulation
+### 1. Ask – Search and Question Formulation
+  - **{A2A}: a platform for research in biomedical literature search** (2020), Rybinski, Maciej et al. 
+  - **Chia, a large annotated corpus of clinical trial eligibility criteria** (2020), Kury, Fabrício et al. 
+  - **A span-based model for extracting overlapping {PICO} entities from {RCT} publications** (2024), Zhang, Gongbo et al. 
+  - **Automate clinical evidence synthesis by linking trials to publications with text analytics** (2021), Li, Chao et al. 
+  - **A probabilistic precision information retrieval model for personalized clinical trial recommendation based on heterogeneous data** (2021), Kamath, Sowmya et al. 
+  - **Deep learning to refine the identification of high-quality clinical research articles from the biomedical literature: Performance evaluation** (2023), Lokker, Cynthia et al.
+  - **Improvement of intervention information detection for automated clinical literature screening during systematic review** (2022), Tsubota, Tadashi et al.  
+  - **In a pilot study, automated real-time systematic review updates were feasible, accurate, and work-saving** (2023), Marshall, Iain J et al. 
+  - **{COVID}-19 trial graph: a linked graph for {COVID}-19 clinical trials** (2021), Du, Jingcheng et al. 
+  - **{Trial2Vec}: Zero-shot clinical trial document similarity search using self-supervision** (2022), Wang, Zifeng et al. 
 
-### 2. **Acquire** – Extracting Evidence
-- Entity Extraction and Normalization
-- Relation Extraction
+### 2. Acquire – Extracting Evidence
 
-### 3. **Appraise, Synthesize, and Summarization**
-- Quality Assessment
-- Evidence Ranking and Screening
-- Evidence Synthesis
-- Evidence Summarization
+#### Entity Extraction and Normalization
+  - **Text classification of cancer clinical trial eligibility criteria** (2023), Yang, Yumeng et al.
+  - **Hybrid bag of approaches to characterize selection criteria for cohort identification** (2019), Vydiswaran, V G Vinod et al. 
+  - **Evaluation of an artificial intelligence clinical trial matching system in Australian lung cancer patients** (2020), Alexander, Marliese et al. 
+  - **Chia, a large annotated corpus of clinical trial eligibility criteria** (2020), Kury, Fabrício et al. 
+  - **Evaluation of an artificial intelligence-based clinical trial matching system in Chinese patients with hepatocellular carcinoma: a retrospective study** (2024), Wang, Kunyuan et al. 
+  - **Extractive summarization of clinical trial descriptions** (2019), Gulden, Christian et al. 
+  - **{AlpaPICO}: Extraction of {PICO} frames from clinical trial documents using {LLMs}** (2024), Ghosh, Madhusudan et al. 
+  - **Comparing generative and extractive approaches to information extraction from abstracts describing randomized clinical trials** (2024), Witte, Christian et al. 
+  - **A span-based model for extracting overlapping {PICO} entities from {RCT} publications** (2024), Zhang, Gongbo et al. 
+  - **Generative {AI} for evidence-based medicine: A {PICO} {GenAI} for synthesizing clinical case reports** (2024), Mohammed, Sabah et al. 
+  - **Automating clinical trial matches via natural language processing of synthetic electronic health records and clinical trial eligibility criteria** (2024), Murcia, Victor M et al. 
+  - **The suitability of {UMLS} and {SNOMED}-{CT} for encoding outcome concepts** (2023), Newbury, Abigail et al. 
+  - **Pre-trained language models with domain knowledge for biomedical extractive summarization** (2022), Xie, Qianqian et al. 
+  - **Exploration of biomedical knowledge for recurrent glioblastoma using natural language processing deep learning models** (2022), Jang, Bum-Sup et al. 
+  - **{TransforMED}: End-to-End Transformers for Evidence-Based Medicine and Argument Mining in medical literature** (2021), Stylianou, Nikolaos et al. 
+  - **Transformer-based named entity recognition for parsing clinical trial eligibility criteria** (2021), Tian, Shubo et al. 
+  - **Evaluation of {Criteria2Query}: Towards Augmented Intelligence for cohort identification** (2022), Liu, Cong et al. 
+  - **Improvement of intervention information detection for automated clinical literature screening during systematic review** (2022), Tsubota, Tadashi et al. 
+  - **An approach for transgender population information extraction and summarization from clinical trial text** (2019), Chen, Boyu et al.
+  - **Artificial intelligence tool for optimizing eligibility screening for clinical trials in a large community cancer center** (2020), Beck, J Thaddeus et al. 
+  - **{srBERT}: automatic article classification model for systematic review using {BERT}** (2021), Aum, Sungmin et al. 
+  - **In a pilot study, automated real-time systematic review updates were feasible, accurate, and work-saving** (2023), Marshall, Iain J et al. 
+  - **Matching Patients to Accelerate Clinical Trials ({MPACT}): Enabling technology for oncology clinical trial workflow** (2024), Do, Nhan V et al. 
+  - **Pretraining to recognize {PICO} elements from randomized controlled trial literature** (2019), Kang, Tian et al. 
+  - **{BLINKtextsubscriptLSTM}: {BioLinkBERT} and {LSTM} based approach for extraction of {PICO} frame from Clinical Trial Text** (2024), Ghosh, Madhusudan et al. 
+  - **Natural language processing for adjudication of heart failure in a multicenter clinical trial: A secondary analysis of a randomized clinical trial** (2024), Cunningham, Jonathan W et al.
+  - **{EvidenceMap}: a three-level knowledge representation for medical evidence computation and comprehension** (2023), Kang, Tian et al. 
+  - **{MSˆ2}: Multi-Document Summarization of Medical Studies** (2021), DeYoung, Jay et al. 
+  - **{OncoCTMiner}: streamlining precision oncology trial matching via molecular profile analysis** (2023), Xu, Quan et al. 
+  - **An annotated corpus of clinical trial publications supporting schema-based relational information extraction** (2022), Sanchez-Graillet, Olivia et al. 
+  - **The anatomy of the {SARS}-{CoV}-2 biomedical literature: Introducing the {CovidX} network algorithm for drug repurposing recommendation** (2020), Gates, Lyndsey Elaine et al.
+  - **Automatic data extraction to support meta-analysis statistical analysis: a case study on breast cancer** (2022), Mutinda, Faith Wavinya et al.  
+  - **Developing a fully automated evidence synthesis tool for identifying, assessing and collating the evidence** (2021), Brassey, Jon et al. 
+  - **Automating clinical trial eligibility screening: Quantitative analysis of {GPT} models versus human expertise** (2024), Devi, Arti et al. 
+  - **Developing a fully automated evidence synthesis tool for identifying, assessing and collating the evidence** (2021), Brassey, Jon et al. 
+  - **Automatic categorization of self-acknowledged limitations in randomized controlled trial publications** (2024), Lan, Mengfei et al. 
+  - **Integrating a {PICO} clinical questioning to the {QL4POMR} framework for building evidence-based clinical case reports** (2023), Mohammed, Sabah et al. 
+  - **The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria** (2022), Dobbins, Nicholas J et al. 
+  - **{Trial2Vec}: Zero-shot clinical trial document similarity search using self-supervision** (2022), Wang, Zifeng et al. 
+  - **Artificial intelligence clinical evidence engine for automatic identification, prioritization, and extraction of relevant clinical oncology research** (2021), Saiz, Fernando Suarez et al. 
+  - **Using artificial intelligence to identify drugs for repurposing to treat l-{DOPA}-induced dyskinesia** (2024), Johnston, Tom H et al. 
+  - **Towards autonomous living meta-analyses: A framework for automation of systematic review and meta-analyses** (2024), Górska, Anna et al. 
+  - **In Silico Drug Repurposing using Knowledge Graph Embeddings for Alzheimer's Disease** (2022), Daluwatumulle, Geesa et al. 
+  - **In Silico Drug Repurposing using Knowledge Graph Embeddings for Alzheimer's Disease** (2022), Daluwatumulle, Geesa et al. 
 
-### 4. **Apply & Assess** – Adoption, refinement and research
-- Specialty-Specific adoption
-- Clinical Trial design and identification
-- Drug Repurposing
-- Question Answering
+#### Relation Extraction
+  - **{AutoTrial}: Prompting Language Models for Clinical Trial Design** (2023), Wang, Zifeng et al. 
+  - **Evaluation of {Criteria2Query}: Towards Augmented Intelligence for cohort identification** (2022), Liu, Cong et al. 
+  - **An approach for transgender population information extraction and summarization from clinical trial text** (2019), Chen, Boyu et al.
+  - **{srBERT}: automatic article classification model for systematic review using {BERT}** (2021), Aum, Sungmin et al. 
+  - **{MSˆ2}: Multi-Document Summarization of Medical Studies** (2021), DeYoung, Jay et al. 
+  - **The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria** (2022), Dobbins, Nicholas J et al. 
+  - **In Silico Drug Repurposing using Knowledge Graph Embeddings for Alzheimer's Disease** (2022), Daluwatumulle, Geesa et al. 
 
+### 3. Appraise, Synthesize, and Summarization
+#### Quality Assessment
+  - **Transformer-based named entity recognition for parsing clinical trial eligibility criteria** (2021), Tian, Shubo et al. 
+  - **Deep learning to refine the identification of high-quality clinical research articles from the biomedical literature: Performance evaluation** (2023), Lokker, Cynthia et al. 
+  - **{OncoCTMiner}: streamlining precision oncology trial matching via molecular profile analysis** (2023), Xu, Quan et al. 
+  - **Developing a fully automated evidence synthesis tool for identifying, assessing and collating the evidence** (2021), Brassey, Jon et al. 
+  - **Automatic categorization of self-acknowledged limitations in randomized controlled trial publications** (2024), Lan, Mengfei et al. 
+
+#### Evidence Ranking and Screening
+  - **Automate clinical evidence synthesis by linking trials to publications with text analytics** (2021), Li, Chao et al. 
+  - **A probabilistic precision information retrieval model for personalized clinical trial recommendation based on heterogeneous data** (2021), Kamath, Sowmya et al. 
+  - **{srBERT}: automatic article classification model for systematic review using {BERT}** (2021), Aum, Sungmin et al. 
+  - **Measuring the impact of screening automation on meta-analyses of diagnostic test accuracy** (2019), Norman, Christopher R et al. 
+  - **{OncoCTMiner}: streamlining precision oncology trial matching via molecular profile analysis** (2023), Xu, Quan et al. 
+  - **The anatomy of the {SARS}-{CoV}-2 biomedical literature: Introducing the {CovidX} network algorithm for drug repurposing recommendation** (2020), Gates, Lyndsey Elaine et al. 
+  - **Clinical trial search: Using biomedical language understanding models for re-ranking** (2020), Rybinski, Maciej et al. 
+  - **Artificial intelligence clinical evidence engine for automatic identification, prioritization, and extraction of relevant clinical oncology research** (2021), Saiz, Fernando Suarez et al. 
+  - **Using artificial intelligence to identify drugs for repurposing to treat l-{DOPA}-induced dyskinesia** (2024), Johnston, Tom H et al. 
+  - **Towards autonomous living meta-analyses: A framework for automation of systematic review and meta-analyses** (2024), Górska, Anna et al. 
+
+#### Evidence Synthesis
+  - **{AutoTrial}: Prompting Language Models for Clinical Trial Design** (2023), Wang, Zifeng et al. 
+  - **Generative {AI} for evidence-based medicine: A {PICO} {GenAI} for synthesizing clinical case reports** (2024), Mohammed, Sabah et al. 
+  - **In a pilot study, automated real-time systematic review updates were feasible, accurate, and work-saving** (2023), Marshall, Iain J et al. 
+  - **{EvidenceMap}: a three-level knowledge representation for medical evidence computation and comprehension** (2023), Kang, Tian et al. 
+  - **Automatic data extraction to support meta-analysis statistical analysis: a case study on breast cancer** (2022), Mutinda, Faith Wavinya et al. 
+  - **Developing a fully automated evidence synthesis tool for identifying, assessing and collating the evidence** (2021), Brassey, Jon et al. 
+  - **Towards autonomous living meta-analyses: A framework for automation of systematic review and meta-analyses** (2024), Górska, Anna et al. 
+
+#### Evidence Summarization
+  - **{TriSum}: Learning summarization ability from large language models with structured rationale** (2024), Jiang, Pengcheng et al. 
+  - **Extractive summarization of clinical trial descriptions** (2019), Gulden, Christian et al. 
+  - **Pre-trained language models with domain knowledge for biomedical extractive summarization** (2022), Xie, Qianqian et al. 
+  - **An approach for transgender population information extraction and summarization from clinical trial text** (2019), Chen, Boyu et al.
+  - **{EvidenceMap}: a three-level knowledge representation for medical evidence computation and comprehension** (2023), Kang, Tian et al. 
+  - **Exploring {ChatGPT}'s potential in facilitating adaptation of clinical guidelines: A case study of Diabetic Ketoacidosis guidelines** (2023), Hamed, Ehab et al. 
+  - **{MSˆ2}: Multi-Document Summarization of Medical Studies** (2021), DeYoung, Jay et al. 
+  - **A light-weight text summarization system for fast access to medical evidence** (2020), Sarker, Abeed et al. 
+  - **Integrating a {PICO} clinical questioning to the {QL4POMR} framework for building evidence-based clinical case reports** (2023), Mohammed, Sabah et al. 
+  - **Text summarization of medical documents using abstractive techniques** (2023), Lalitha, Evani et al. 
+
+### 4. Apply & Assess – Adoption, refinement and research
+
+#### Clinical Trial design and identification
+  - **{AutoTrial}: Prompting Language Models for Clinical Trial Design** (2023), Wang, Zifeng et al. 
+  - **Text classification of cancer clinical trial eligibility criteria** (2023), Yang, Yumeng et al.
+  - **Hybrid bag of approaches to characterize selection criteria for cohort identification** (2019), Vydiswaran, V G Vinod et al. 
+  - **Evaluation of an artificial intelligence clinical trial matching system in Australian lung cancer patients** (2020), Alexander, Marliese et al. 
+  - **Automating clinical trial matches via natural language processing of synthetic electronic health records and clinical trial eligibility criteria** (2024), Murcia, Victor M et al. 
+  - **A probabilistic precision information retrieval model for personalized clinical trial recommendation based on heterogeneous data** (2021), Kamath, Sowmya et al. 
+  - **Transformer-based named entity recognition for parsing clinical trial eligibility criteria** (2021), Tian, Shubo et al. 
+  - **Evaluation of {Criteria2Query}: Towards Augmented Intelligence for cohort identification** (2022), Liu, Cong et al. 
+  - **An approach for transgender population information extraction and summarization from clinical trial text** (2019), Chen, Boyu et al.
+  - **Artificial intelligence tool for optimizing eligibility screening for clinical trials in a large community cancer center** (2020), Beck, J Thaddeus et al. 
+  - **Matching Patients to Accelerate Clinical Trials ({MPACT}): Enabling technology for oncology clinical trial workflow** (2024), Do, Nhan V et al. 
+  - **Automating clinical trial eligibility screening: Quantitative analysis of {GPT} models versus human expertise** (2024), Devi, Arti et al. 
+  - **The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria** (2022), Dobbins, Nicholas J et al. 
+  - **Artificial intelligence clinical evidence engine for automatic identification, prioritization, and extraction of relevant clinical oncology research** (2021), Saiz, Fernando Suarez et al. 
+  - **In Silico Drug Repurposing using Knowledge Graph Embeddings for Alzheimer's Disease** (2022), Daluwatumulle, Geesa et al. 
+
+#### Question Answering
+  - **{TriSum}: Learning summarization ability from large language models with structured rationale** (2024), Jiang, Pengcheng et al. 
+  - **Generative {AI} for evidence-based medicine: A {PICO} {GenAI} for synthesizing clinical case reports** (2024), Mohammed, Sabah et al. 
+  - **Aesthetic surgery advice and counseling from artificial intelligence: A rhinoplasty consultation with {ChatGPT}** (2023), Xie, Yi et al. 
+  - **Exploration of biomedical knowledge for recurrent glioblastoma using natural language processing deep learning models** (2022), Jang, Bum-Sup et al. 
+  - **Retrieval Augmented Generation enabled generative pre-trained transformer 4 ({GPT}-4) performance for clinical trial screening** (2024), Unlu, Ozan et al. 
+  - **Performance of {ChatGPT} in answering clinical questions on the practical guideline of blepharoptosis** (2024), Shiraishi, Makoto et al. 
+  - **Natural language processing for adjudication of heart failure in a multicenter clinical trial: A secondary analysis of a randomized clinical trial** (2024), Cunningham, Jonathan W et al.
+  - **Exploring {ChatGPT}'s potential in facilitating adaptation of clinical guidelines: A case study of Diabetic Ketoacidosis guidelines** (2023), Hamed, Ehab et al. 
+  - **Development and evaluation of a large language model of ophthalmology in Chinese** (2024), Zheng, Ce et al. 
+  - **Knowledge graph based platform of {COVID}-19 drugs and symptoms** (2021), Pan, Zhenhe et al. 
 ---
 
-## EBM Benchmark Datasets
-
+### EBM Benchmark Datasets
+  - **Trialstreamer: A living, automatically updated database of clinical trial reports** (2020), Marshall, Iain J et al. 
+  - **{MSˆ2}: Multi-Document Summarization of Medical Studies** (2021), DeYoung, Jay et al. 
+  - **The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria** (2022), Dobbins, Nicholas J et al. 
 
 ## 📄 Citation
 
 If you find this useful, please cite our scoping review:
 
 ```bibtex
-@INPROCEEDINGS{Wang2023-ss,
-  title = "{AutoTrial}: Prompting Language Models for Clinical Trial Design",
-  author = "Wang, Zifeng and Xiao, Cao and Sun, Jimeng",
-  booktitle = "The 2023 Conference on Empirical Methods in Natural Language Processing",
-  month =  "1~" # dec,
-  year =  2023
-}
-,@ARTICLE{Yang2023-cn,
-  title = "Text classification of cancer clinical trial eligibility criteria",
-  author = "Yang, Yumeng and Jayaraj, Soumya and Ludmir, Ethan and Roberts, Kirk",
-  journal = "AMIA Annu. Symp. Proc.",
-  volume =  2023,
-  pages = "1304--1313",
-  year =  2023,
-  pmc = "PMC10785908",
-  pmid =  38222417,
-  issn = "1942-597X,1559-4076"
-}
-,@ARTICLE{Kwaan2012-nz,
-  title = "Evidence-based medicine in surgical education",
-  author = "Kwaan, Mary R and Melton, Genevieve B",
-  journal = "Clin. Colon Rectal Surg.",
-  publisher = "Georg Thieme Verlag KG",
-  volume =  25,
-  number =  3,
-  pages = "151--155",
-  month =  sep,
-  year =  2012,
-  doi = "10.1055/s-0032-1322552",
-  pmc = "PMC3577571",
-  pmid =  23997670,
-  issn = "1531-0043,1530-9681"
-}
-,@ARTICLE{Vydiswaran2019-id,
-  title = "Hybrid bag of approaches to characterize selection criteria for cohort identification",
-  author = "Vydiswaran, V G Vinod and Strayhorn, Asher and Zhao, Xinyan and Robinson, Phil and Agarwal, Mahesh and Bagazinski, Erin and Essiet, Madia and Iott, Bradley E and Joo, Hyeon and Ko, Pingjui and Lee, Dahee and Lu, Jin Xiu and Liu, Jinghui and Murali, Adharsh and Sasagawa, Koki and Wang, Tianshi and Yuan, Nalingna",
-  journal = "J. Am. Med. Inform. Assoc.",
-  publisher = "Oxford University Press (OUP)",
-  volume =  26,
-  number =  11,
-  pages = "1172--1180",
-  month =  "1~" # nov,
-  year =  2019,
-  doi = "10.1093/jamia/ocz079",
-  pmc = "PMC7647216",
-  pmid =  31197354,
-  issn = "1067-5027,1527-974X"
-}
-,@ARTICLE{Alexander2020-bu,
-  title = "Evaluation of an artificial intelligence clinical trial matching system in Australian lung cancer patients",
-  author = "Alexander, Marliese and Solomon, Benjamin and Ball, David L and Sheerin, Mimi and Dankwa-Mullan, Irene and Preininger, Anita M and Jackson, Gretchen Purcell and Herath, Dishan M",
-  journal = "JAMIA Open",
-  publisher = "Oxford University Press (OUP)",
-  volume =  3,
-  number =  2,
-  pages = "209--215",
-  month =  jul,
-  year =  2020,
-  doi = "10.1093/jamiaopen/ooaa002",
-  pmc = "PMC7382632",
-  pmid =  32734161,
-  issn = "2574-2531"
-}
-,@ARTICLE{Rybinski2020-rs,
-  title = "{A2A}: a platform for research in biomedical literature search",
-  author = "Rybinski, Maciej and Karimi, Sarvnaz and Nguyen, Vincent and Paris, Cecile",
-  journal = "BMC Bioinformatics",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  21,
-  number = "Suppl 19",
-  pages =  572,
-  month =  "21~" # dec,
-  year =  2020,
-  doi = "10.1186/s12859-020-03894-8",
-  pmc = "PMC7751125",
-  pmid =  33349237,
-  issn = "1471-2105,1471-2105"
-}
-,@ARTICLE{Kury2020-tc,
-  title = "Chia, a large annotated corpus of clinical trial eligibility criteria",
-  author = "Kury, Fabrício and Butler, Alex and Yuan, Chi and Fu, Li-Heng and Sun, Yingcheng and Liu, Hao and Sim, Ida and Carini, Simona and Weng, Chunhua",
-  journal = "Sci. Data",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  7,
-  number =  1,
-  pages =  281,
-  month =  "27~" # aug,
-  year =  2020,
-  doi = "10.1038/s41597-020-00620-0",
-  pmc = "PMC7452886",
-  pmid =  32855408,
-  issn = "2052-4463,2052-4463"
-}
-,@ARTICLE{Wang2024-rx,
-  title = "Evaluation of an artificial intelligence-based clinical trial matching system in Chinese patients with hepatocellular carcinoma: a retrospective study",
-  author = "Wang, Kunyuan and Cui, Hao and Zhu, Yun and Hu, Xiaoyun and Hong, Chang and Guo, Yabing and An, Lingyao and Zhang, Qi and Liu, Li",
-  journal = "BMC Cancer",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  24,
-  number =  1,
-  pages =  246,
-  month =  "22~" # feb,
-  year =  2024,
-  doi = "10.1186/s12885-024-11959-7",
-  pmc = "PMC10885498",
-  pmid =  38388861,
-  issn = "1471-2407"
-}
-,@ARTICLE{Jiang2024-zi,
-  title = "{TriSum}: Learning summarization ability from large language models with structured rationale",
-  author = "Jiang, Pengcheng and Xiao, Cao and Wang, Zifeng and Bhatia, Parminder and Sun, Jimeng and Han, Jiawei",
-  journal = "arXiv [cs.CL]",
-  month =  "15~" # mar,
-  year =  2024,
-  archivePrefix = "arXiv",
-  primaryClass = "cs.CL",
-  eprint = "2403.10351"
-}
-,@ARTICLE{Gulden2019-dv,
-  title = "Extractive summarization of clinical trial descriptions",
-  author = "Gulden, Christian and Kirchner, Melanie and Schüttler, Christina and Hinderer, Marc and Kampf, Marvin and Prokosch, Hans-Ulrich and Toddenroth, Dennis",
-  journal = "Int. J. Med. Inform.",
-  publisher = "Elsevier BV",
-  volume =  129,
-  pages = "114--121",
-  month =  "1~" # sep,
-  year =  2019,
-  doi = "10.1016/j.ijmedinf.2019.05.019",
-  pmid =  31445245,
-  issn = "1386-5056,1872-8243"
-}
-,@ARTICLE{Ghosh2024-km,
-  title = "{AlpaPICO}: Extraction of {PICO} frames from clinical trial documents using {LLMs}",
-  author = "Ghosh, Madhusudan and Mukherjee, Shrimon and Ganguly, Asmit and Basuchowdhuri, Partha and Naskar, Sudip Kumar and Ganguly, Debasis",
-  journal = "Methods",
-  publisher = "Elsevier BV",
-  volume =  226,
-  pages = "78--88",
-  month =  jun,
-  year =  2024,
-  doi = "10.1016/j.ymeth.2024.04.005",
-  pmid =  38643910,
-  issn = "1046-2023,1095-9130"
-}
-,@ARTICLE{Witte2024-bk,
-  title = "Comparing generative and extractive approaches to information extraction from abstracts describing randomized clinical trials",
-  author = "Witte, Christian and Schmidt, David M and Cimiano, Philipp",
-  journal = "J. Biomed. Semantics",
-  volume =  15,
-  number =  1,
-  pages =  3,
-  month =  "23~" # apr,
-  year =  2024,
-  doi = "10.1186/s13326-024-00305-2",
-  pmc = "PMC11036632",
-  pmid =  38654304,
-  issn = "2041-1480"
-}
-,@ARTICLE{zhang2024span-based-h,
-  title = "A span-based model for extracting overlapping {PICO} entities from {RCT} publications",
-  author = "Zhang, Gongbo and Zhou, Yiliang and Hu, Yan and Xu, Hua and Weng, Chunhua and Peng, Yifan",
-  journal = "J. Am. Med. Inform. Assoc.",
-  month =  "12~" # mar,
-  year =  2024,
-  doi = "10.1093/jamia/ocae065",
-  pmid =  38471120,
-  issn = "1067-5027,1527-974X"
-}
-,
-@INPROCEEDINGS{707,
-  title = "Automate clinical evidence synthesis by linking trials to publications with text analytics",
-  author = "Li, Chao and Gurulingappa, Harsha and Karmalkar, Prathamesh and Raab, Jana and Vij, Aastha and Megaro, Gerard and Henke, Christian",
-  booktitle = "2021 International Symposium on Electrical, Electronics and Information Engineering",
-  publisher = "ACM",
-  address = "New York, NY, USA",
-  month =  "19~" # feb,
-  year =  2021,
-  doi = "10.1145/3459104.3459168",
-  isbn =  9781450389839
-}
-,@INPROCEEDINGS{Mohammed2024-dx,
-  title = "Generative {AI} for evidence-based medicine: A {PICO} {GenAI} for synthesizing clinical case reports",
-  author = "Mohammed, Sabah and Fiaidhi, Jinan",
-  booktitle = "ICC 2024 - IEEE International Conference on Communications",
-  publisher = "IEEE",
-  volume =  3,
-  pages = "1503--1508",
-  month =  "9~" # jun,
-  year =  2024,
-  doi = "10.1109/icc51166.2024.10622271",
-  isbn = "9781728190549,9781728190556",
-  issn = "1938-1883,1550-3607"
-}
-,@ARTICLE{Murcia2024-sz,
-  title = "Automating clinical trial matches via natural language processing of synthetic electronic health records and clinical trial eligibility criteria",
-  author = "Murcia, Victor M and Aggarwal, Vinod and Pesaladinne, Nikhil and Thammineni, Ram and Do, Nhan and Alterovitz, Gil and Fricks, Rafael B",
-  journal = "AMIA Summits Transl. Sci. Proc.",
-  publisher = "American Medical Informatics Association",
-  volume =  2024,
-  pages = "125--134",
-  month =  "31~" # may,
-  year =  2024,
-  pmc = "PMC11141802",
-  pmid =  38827083,
-  issn = "2153-4063"
-}
-,@ARTICLE{marshall2020trialstreamer-z,
-  title = "Trialstreamer: A living, automatically updated database of clinical trial reports",
-  author = "Marshall, Iain J and Nye, Benjamin and Kuiper, Joël and Noel-Storr, Anna and Marshall, Rachel and Maclean, Rory and Soboczenski, Frank and Nenkova, Ani and Thomas, James and Wallace, Byron C",
-  journal = "J. Am. Med. Inform. Assoc.",
-  volume =  27,
-  number =  12,
-  pages = "1903--1912",
-  month =  "9~" # dec,
-  year =  2020,
-  doi = "10.1093/jamia/ocaa163",
-  pmc = "PMC7727361",
-  pmid =  32940710,
-  issn = "1067-5027,1527-974X"
-}
-,@INPROCEEDINGS{Ramprasad2023-br,
-  title = "Automatically summarizing evidence from clinical trials: A prototype highlighting current challenges",
-  author = "Ramprasad, Sanjana and Mcinerney, Jered and Marshall, Iain and Wallace, Byron",
-  editor = "Croce, Danilo and Soldaini, Luca",
-  booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations",
-  publisher = "Association for Computational Linguistics",
-  address = "Stroudsburg, PA, USA",
-  pages = "236--247",
-  year =  2023,
-  doi = "10.18653/v1/2023.eacl-demo.27"
-}
-,@ARTICLE{Mehta2022-at,
-  title = "Internal medicine resident adherence to evidence-based practices in management of diabetes mellitus",
-  author = "Mehta, Chirag and Cohen, David and Jaisinghani, Priya and Parikh, Payal",
-  journal = "J. Med. Educ. Curric. Dev.",
-  publisher = "SAGE Publications",
-  volume =  9,
-  pages =  23821205221076659,
-  month =  jan,
-  year =  2022,
-  doi = "10.1177/23821205221076659",
-  pmc = "PMC8814960",
-  pmid =  35128060,
-  issn = "2382-1205"
-}
-,@ARTICLE{Newbury2023-hg,
-  title = "The suitability of {UMLS} and {SNOMED}-{CT} for encoding outcome concepts",
-  author = "Newbury, Abigail and Liu, Hao and Idnay, Betina and Weng, Chunhua",
-  journal = "J. Am. Med. Inform. Assoc.",
-  publisher = "Oxford University Press (OUP)",
-  volume =  30,
-  number =  12,
-  pages = "1895--1903",
-  month =  "17~" # nov,
-  year =  2023,
-  doi = "10.1093/jamia/ocad161",
-  pmc = "PMC10654851",
-  pmid =  37615994,
-  issn = "1067-5027,1527-974X"
-}
-,@ARTICLE{Ge2023-da,
-  title = "Few-shot learning for medical text: A review of advances, trends, and opportunities",
-  author = "Ge, Yao and Guo, Yuting and Das, Sudeshna and Al-Garadi, Mohammed Ali and Sarker, Abeed",
-  journal = "J. Biomed. Inform.",
-  publisher = "Elsevier BV",
-  volume =  144,
-  number =  104458,
-  pages =  104458,
-  month =  aug,
-  year =  2023,
-  doi = "10.1016/j.jbi.2023.104458",
-  pmc = "PMC10940971",
-  pmid =  37488023,
-  issn = "1532-0464,1532-0480"
-}
-,@ARTICLE{Xie2023-qq,
-  title = "Aesthetic surgery advice and counseling from artificial intelligence: A rhinoplasty consultation with {ChatGPT}",
-  author = "Xie, Yi and Seth, Ishith and Hunter-Smith, David J and Rozen, Warren M and Ross, Richard and Lee, Matthew",
-  journal = "Aesthetic Plast. Surg.",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  47,
-  number =  5,
-  pages = "1985--1993",
-  month =  "24~" # oct,
-  year =  2023,
-  doi = "10.1007/s00266-023-03338-7",
-  pmc = "PMC10581928",
-  pmid =  37095384,
-  issn = "0364-216X,1432-5241"
-}
-,@MISC{Gorski2024-xy,
-  title = "2023: The year that the evidence-based medicine ({EBM}) paradigm was weaponized against vaccines and public health",
-  author = "Gorski, David",
-  booktitle = "Science-Based Medicine",
-  month =  "1~" # jan,
-  year =  2024,
-  howpublished = "\url{https://sciencebasedmedicine.org/2023-the-year-that-the-evidence-based-medicine-ebm-paradigm-was-weaponized-against-vaccines-and-public-health/}"
-}
-,@INPROCEEDINGS{Kamath2021-ux,
-  title = "A probabilistic precision information retrieval model for personalized clinical trial recommendation based on heterogeneous data",
-  author = "Kamath, Sowmya and Mayya, Veena and {Priyadarshini}",
-  booktitle = "2021 12th International Conference on Computing Communication and Networking Technologies (ICCCNT)",
-  publisher = "IEEE",
-  pages = "1--5",
-  month =  "6~" # jul,
-  year =  2021,
-  doi = "10.1109/icccnt51525.2021.9579891",
-  isbn = "9781728185958,9781728185965"
-}
-,@MISC{noauthor_undated-io,
-  title = "Using {PubMed} in Evidence-Based Practice",
-  howpublished = "\url{https://www.nlm.nih.gov/oet/ed/pubmed/pubmed\_in\_ebp/02-100.html}"
-}
-,@ARTICLE{Xie2022-oa,
-  title = "Pre-trained language models with domain knowledge for biomedical extractive summarization",
-  author = "Xie, Qianqian and Bishop, Jennifer Amy and Tiwari, Prayag and Ananiadou, Sophia",
-  journal = "Knowl. Based Syst.",
-  publisher = "Elsevier BV",
-  volume =  252,
-  number =  109460,
-  pages =  109460,
-  month =  sep,
-  year =  2022,
-  doi = "10.1016/j.knosys.2022.109460",
-  issn = "0950-7051,1872-7409"
-}
-,@ARTICLE{Jang2022-tj,
-  title = "Exploration of biomedical knowledge for recurrent glioblastoma using natural language processing deep learning models",
-  author = "Jang, Bum-Sup and Park, Andrew J and Kim, In Ah",
-  journal = "BMC Med. Inform. Decis. Mak.",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  22,
-  number =  1,
-  pages =  267,
-  month =  "13~" # oct,
-  year =  2022,
-  doi = "10.1186/s12911-022-02003-4",
-  pmc = "PMC9559267",
-  pmid =  36229835,
-  issn = "1472-6947,1472-6947"
-}
-,@ARTICLE{Devlin2018-wo,
-  title = "{BERT}: Pre-training of deep bidirectional Transformers for language understanding",
-  author = "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
-  journal = "arXiv [cs.CL]",
-  month =  "10~" # oct,
-  year =  2018,
-  archivePrefix = "arXiv",
-  primaryClass = "cs.CL",
-  eprint = "1810.04805"
-}
-,@ARTICLE{Unlu2024-oj,
-  title = "Retrieval Augmented Generation enabled generative pre-trained transformer 4 ({GPT}-4) performance for clinical trial screening",
-  author = "Unlu, Ozan and Shin, Jiyeon and Mailly, Charlotte J and Oates, Michael F and Tucci, Michela R and Varugheese, Matthew and Wagholikar, Kavishwar and Wang, Fei and Scirica, Benjamin M and Blood, Alexander J and Aronson, Samuel J",
-  journal = "medRxiv",
-  month =  "8~" # feb,
-  year =  2024,
-  doi = "10.1101/2024.02.08.24302376",
-  pmc = "PMC10871450",
-  pmid =  38370719
-}
-,@ARTICLE{Levy2024-sg,
-  title = "Defining documentation burden ({DocBurden}) and excessive {DocBurden} for all health professionals: A Scoping Review",
-  author = "Levy, Deborah R and Withall, Jennifer B and Mishuris, Rebecca G and Tiase, Victoria and Diamond, Courtney and Douthit, Brian and Grabowska, Monika and Lee, Rachel Y and Moy, Amanda J and Sengstack, Patricia and Adler-Milstein, Julia and Detmer, Don Eugene and Johnson, Kevin B and Cimino, James J and Corley, Sarah and Murphy, Judy and Rosenbloom, S Trent and Cato, Kenrick and Rossetti, Sarah C",
-  journal = "Appl. Clin. Inform.",
-  publisher = "Georg Thieme Verlag KG",
-  volume =  15,
-  number =  5,
-  pages = "898--913",
-  month =  oct,
-  year =  2024,
-  doi = "10.1055/a-2385-1654",
-  pmc = "PMC11524753",
-  pmid =  39137903,
-  issn = "1869-0327"
-}
-,@ARTICLE{Stylianou2021-ek,
-  title = "{TransforMED}: End-to-End Transformers for Evidence-Based Medicine and Argument Mining in medical literature",
-  author = "Stylianou, Nikolaos and Vlahavas, Ioannis",
-  journal = "J. Biomed. Inform.",
-  publisher = "Elsevier BV",
-  volume =  117,
-  number =  103767,
-  pages =  103767,
-  month =  "1~" # may,
-  year =  2021,
-  doi = "10.1016/j.jbi.2021.103767",
-  pmid =  33811985,
-  issn = "1532-0464,1532-0480"
-}
-,@ARTICLE{Shiner2022-al,
-  title = "Improvements to {PTSD} quality metrics with natural language processing",
-  author = "Shiner, Brian and Levis, Maxwell and Dufort, Vincent M and Patterson, Olga V and Watts, Bradley V and DuVall, Scott L and Russ, Carey J and Maguen, Shira",
-  journal = "J. Eval. Clin. Pract.",
-  publisher = "Wiley",
-  volume =  28,
-  number =  4,
-  pages = "520--530",
-  month =  aug,
-  year =  2022,
-  doi = "10.1111/jep.13587",
-  pmid =  34028937,
-  issn = "1356-1294,1365-2753"
-}
-,@ARTICLE{Tian2021-oh,
-  title = "Transformer-based named entity recognition for parsing clinical trial eligibility criteria",
-  author = "Tian, Shubo and Erdengasileng, Arslan and Yang, Xi and Guo, Yi and Wu, Yonghui and Zhang, Jinfeng and Bian, Jiang and He, Zhe",
-  journal = "ACM BCB",
-  volume =  2021,
-  month =  aug,
-  year =  2021,
-  doi = "10.1145/3459930.3469560",
-  pmc = "PMC8373041",
-  pmid =  34414397
-}
-,@ARTICLE{Lokker2023-tx,
-  title = "Deep learning to refine the identification of high-quality clinical research articles from the biomedical literature: Performance evaluation",
-  author = "Lokker, Cynthia and Bagheri, Elham and Abdelkader, Wael and Parrish, Rick and Afzal, Muhammad and Navarro, Tamara and Cotoi, Chris and Germini, Federico and Linkins, Lori and Haynes, R Brian and Chu, Lingyang and Iorio, Alfonso",
-  journal = "J. Biomed. Inform.",
-  publisher = "Elsevier BV",
-  volume =  142,
-  number =  104384,
-  pages =  104384,
-  month =  "1~" # jun,
-  year =  2023,
-  doi = "10.1016/j.jbi.2023.104384",
-  pmid =  37164244,
-  issn = "1532-0464,1532-0480"
-}
-,@ARTICLE{Liu2022-il,
-  title = "Evaluation of {Criteria2Query}: Towards Augmented Intelligence for cohort identification",
-  author = "Liu, Cong and Liu, Hao and Ta, Casey and Roger, James and Butler, Alex and Lee, Junghwan and Kim, Jaehyun and Shang, Ning and Weng, Chunhua",
-  journal = "Stud. Health Technol. Inform.",
-  publisher = "IOS Press",
-  volume =  290,
-  pages = "297--300",
-  month =  "6~" # jun,
-  year =  2022,
-  doi = "10.3233/SHTI220082",
-  pmid =  35673021,
-  issn = "0926-9630,1879-8365"
-}
-,@ARTICLE{Tsubota2022-qf,
-  title = "Improvement of intervention information detection for automated clinical literature screening during systematic review",
-  author = "Tsubota, Tadashi and Bollegala, Danushka and Zhao, Yang and Jin, Yingzi and Kozu, Tomotake",
-  journal = "J. Biomed. Inform.",
-  publisher = "Elsevier BV",
-  volume =  134,
-  number =  104185,
-  pages =  104185,
-  month =  "1~" # oct,
-  year =  2022,
-  doi = "10.1016/j.jbi.2022.104185",
-  pmid =  36038066,
-  issn = "1532-0464,1532-0480"
-}
-,@ARTICLE{Chen2019-ze,
-  title = "An approach for transgender population information extraction and summarization from clinical trial text",
-  author = "Chen, Boyu and Jin, Hao and Yang, Zhiwen and Qu, Yingying and Weng, Heng and Hao, Tianyong",
-  journal = "BMC Med. Inform. Decis. Mak.",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  19,
-  number = "Suppl 2",
-  pages =  62,
-  month =  "9~" # apr,
-  year =  2019,
-  doi = "10.1186/s12911-019-0768-1",
-  pmc = "PMC6454593",
-  pmid =  30961595,
-  issn = "1472-6947,1472-6947"
-}
-,@INPROCEEDINGS{Devi2024-ha,
-  title = "Quantitative analysis of {GPT}-4 model: Optimizing patient eligibility classification for clinical trials and reducing expert judgment dependency",
-  author = "Devi, Arti and Uttrani, Shashank and Singla, Aryansh and Jha, Sarthak and Dasgupta, Nataraj and Natarajan, Sayee and Punekar, Rajeshwari S and Pickett, Larry A and Dutt, Varun",
-  booktitle = "Proceedings of the 2024 8th International Conference on Medical and Health Informatics",
-  publisher = "ACM",
-  address = "New York, NY, USA",
-  pages = "230--237",
-  month =  "17~" # may,
-  year =  2024,
-  doi = "10.1145/3673971.3674014"
-}
-,@ARTICLE{Beck2020-bm,
-  title = "Artificial intelligence tool for optimizing eligibility screening for clinical trials in a large community cancer center",
-  author = "Beck, J Thaddeus and Rammage, Melissa and Jackson, Gretchen P and Preininger, Anita M and Dankwa-Mullan, Irene and Roebuck, M Christopher and Torres, Adam and Holtzen, Helen and Coverdill, Sadie E and Williamson, M Paul and Chau, Quincy and Rhee, Kyu and Vinegra, Michael",
-  journal = "JCO Clin. Cancer Inform.",
-  publisher = "American Society of Clinical Oncology (ASCO)",
-  volume =  4,
-  number =  4,
-  pages = "50--59",
-  month =  jan,
-  year =  2020,
-  doi = "10.1200/CCI.19.00079",
-  pmid =  31977254,
-  issn = "2473-4276"
-}
-,@ARTICLE{demner-fushman2007answering-s,
-  title = "Answering clinical questions with knowledge-based and statistical techniques",
-  author = "Demner-Fushman, Dina and Lin, Jimmy",
-  journal = "Comput. Linguist. Assoc. Comput. Linguist.",
-  publisher = "MIT Press - Journals",
-  volume =  33,
-  number =  1,
-  pages = "63--103",
-  month =  mar,
-  year =  2007,
-  doi = "10.1162/coli.2007.33.1.63",
-  issn = "0891-2017,1530-9312"
-}
-,@ARTICLE{Aum2021-fp,
-  title = "{srBERT}: automatic article classification model for systematic review using {BERT}",
-  author = "Aum, Sungmin and Choe, Seon",
-  journal = "Syst. Rev.",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  10,
-  number =  1,
-  pages =  285,
-  month =  "30~" # oct,
-  year =  2021,
-  doi = "10.1186/s13643-021-01763-w",
-  pmc = "PMC8556883",
-  pmid =  34717768,
-  issn = "2046-4053,2046-4053"
-}
-,@ARTICLE{Shiraishi2024-la,
-  title = "Performance of {ChatGPT} in answering clinical questions on the practical guideline of blepharoptosis",
-  author = "Shiraishi, Makoto and Tomioka, Yoko and Miyakuni, Ami and Ishii, Saaya and Hori, Asei and Park, Hwayoung and Ohba, Jun and Okazaki, Mutsumi",
-  journal = "Aesthetic Plast. Surg.",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  48,
-  number =  13,
-  pages = "2389--2398",
-  month =  "29~" # jul,
-  year =  2024,
-  doi = "10.1007/s00266-024-04005-1",
-  pmid =  38684536,
-  issn = "0364-216X,1432-5241"
-}
-,@ARTICLE{marshall2023pilot-f,
-  title = "In a pilot study, automated real-time systematic review updates were feasible, accurate, and work-saving",
-  author = "Marshall, Iain J and Trikalinos, Thomas A and Soboczenski, Frank and Yun, Hye Sun and Kell, Gregory and Marshall, Rachel and Wallace, Byron C",
-  journal = "J. Clin. Epidemiol.",
-  volume =  153,
-  pages = "26--33",
-  month =  jan,
-  year =  2023,
-  doi = "10.1016/j.jclinepi.2022.08.013",
-  pmid =  36150548,
-  issn = "0895-4356,1878-5921"
-}
-,@ARTICLE{Do2024-bl,
-  title = "Matching Patients to Accelerate Clinical Trials ({MPACT}): Enabling technology for oncology clinical trial workflow",
-  author = "Do, Nhan V and Elbers, Danne C and Fillmore, Nathanael R and Ajjarapu, Samuel and Bergstrom, Steven J and Bihn, John and Corrigan, June K and Dhond, Rupali and Dipietro, Svitlana and Dolgin, Arkadiy and Feldman, Theodore C and Goryachev, Sergey D and Huhmann, Linden B and La, Jennifer and Marcantonio, Paul A and McGrath, Kyle M and Miller, Stephen J and Nguyen, Vinh Q and Schneeloch, George R and Sung, Feng-Chi and Swinnerton, Kaitlin N and Tarren, Amelia H and Tosi, Hannah M and Valley, Danielle and Vo, Austin D and Yildirim, Cenk and Zheng, Chunlei and Zwolinski, Robert and Sarosy, Gisele A and Loose, David and Shannon, Colleen and Brophy, Mary T",
-  journal = "Stud. Health Technol. Inform.",
-  volume =  310,
-  pages = "1086--1090",
-  month =  "25~" # jan,
-  year =  2024,
-  doi = "10.3233/SHTI231132",
-  pmc = "PMC11128308",
-  pmid =  38269982,
-  issn = "0926-9630,1879-8365"
-}
-,@ARTICLE{Kang2019-rl,
-  title = "Pretraining to recognize {PICO} elements from randomized controlled trial literature",
-  author = "Kang, Tian and Zou, Shirui and Weng, Chunhua",
-  journal = "Stud. Health Technol. Inform.",
-  volume =  264,
-  pages = "188--192",
-  month =  "21~" # aug,
-  year =  2019,
-  doi = "10.3233/SHTI190209",
-  pmc = "PMC6852618",
-  pmid =  31437911,
-  issn = "0926-9630,1879-8365"
-}
-,@INPROCEEDINGS{Ghosh2024-is,
-  title = "{BLINKtextsubscriptLSTM}: {BioLinkBERT} and {LSTM} based approach for extraction of {PICO} frame from Clinical Trial Text",
-  author = "Ghosh, Madhusudan and Mukherjee, Shrimon and Santra, Payel and Na, Girish and Basuchowdhuri, Partha",
-  booktitle = "Proceedings of the 7th Joint International Conference on Data Science \& Management of Data (11th ACM IKDD CODS and 29th COMAD)",
-  publisher = "ACM",
-  address = "New York, NY, USA",
-  month =  "4~" # jan,
-  year =  2024,
-  doi = "10.1145/3632410.3632442"
-}
-,@ARTICLE{Cunningham2024-we,
-  title = "Natural language processing for adjudication of heart failure in a multicenter clinical trial: A secondary analysis of a randomized clinical trial",
-  author = "Cunningham, Jonathan W and Singh, Pulkit and Reeder, Christopher and Claggett, Brian and Marti-Castellote, Pablo M and Lau, Emily S and Khurshid, Shaan and Batra, Puneet and Lubitz, Steven A and Maddah, Mahnaz and Philippakis, Anthony and Desai, Akshay S and Ellinor, Patrick T and Vardeny, Orly and Solomon, Scott D and Ho, Jennifer E",
-  journal = "JAMA Cardiol.",
-  publisher = "American Medical Association (AMA)",
-  volume =  9,
-  number =  2,
-  pages = "174--181",
-  month =  "1~" # feb,
-  year =  2024,
-  doi = "10.1001/jamacardio.2023.4859",
-  pmc = "PMC10640703",
-  pmid =  37950744,
-  issn = "2380-6583,2380-6591"
-}
-,@ARTICLE{Kang2023-ei,
-  title = "{EvidenceMap}: a three-level knowledge representation for medical evidence computation and comprehension",
-  author = "Kang, Tian and Sun, Yingcheng and Kim, Jae Hyun and Ta, Casey and Perotte, Adler and Schiffer, Kayla and Wu, Mutong and Zhao, Yang and Moustafa-Fahmy, Nour and Peng, Yifan and Weng, Chunhua",
-  journal = "J. Am. Med. Inform. Assoc.",
-  publisher = "Oxford Academic",
-  volume =  30,
-  number =  6,
-  pages = "1022--1031",
-  month =  "19~" # may,
-  year =  2023,
-  doi = "10.1093/jamia/ocad036",
-  pmc = "PMC10198523",
-  pmid =  36921288,
-  issn = "1067-5027,1527-974X"
-}
-,@ARTICLE{Norman2019-nm,
-  title = "Measuring the impact of screening automation on meta-analyses of diagnostic test accuracy",
-  author = "Norman, Christopher R and Leeflang, Mariska M G and Porcher, Raphaël and Névéol, Aurélie",
-  journal = "Syst. Rev.",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  8,
-  number =  1,
-  pages =  243,
-  month =  "28~" # oct,
-  year =  2019,
-  doi = "10.1186/s13643-019-1162-x",
-  pmc = "PMC6819363",
-  pmid =  31661028,
-  issn = "2046-4053,2046-4053"
-}
-,@ARTICLE{Hamed2023-jr,
-  title = "Exploring {ChatGPT}'s potential in facilitating adaptation of clinical guidelines: A case study of Diabetic Ketoacidosis guidelines",
-  author = "Hamed, Ehab and Eid, Ahmad and Alberry, Medhat",
-  journal = "Cureus",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  15,
-  number =  5,
-  pages = "e38784",
-  month =  "9~" # may,
-  year =  2023,
-  doi = "10.7759/cureus.38784",
-  pmc = "PMC10249915",
-  pmid =  37303347,
-  issn = "2168-8184"
-}
-,@ARTICLE{Du2021-qx,
-  title = "{COVID}-19 trial graph: a linked graph for {COVID}-19 clinical trials",
-  author = "Du, Jingcheng and Wang, Qing and Wang, Jingqi and Ramesh, Prerana and Xiang, Yang and Jiang, Xiaoqian and Tao, Cui",
-  journal = "J. Am. Med. Inform. Assoc.",
-  publisher = "Oxford University Press (OUP)",
-  volume =  28,
-  number =  9,
-  pages = "1964--1969",
-  month =  "13~" # aug,
-  year =  2021,
-  doi = "10.1093/jamia/ocab078",
-  pmc = "PMC8135317",
-  pmid =  33895839,
-  issn = "1067-5027,1527-974X"
-}
-,@ARTICLE{Zheng2024-wa,
-  title = "Development and evaluation of a large language model of ophthalmology in Chinese",
-  author = "Zheng, Ce and Ye, Hongfei and Guo, Jinming and Yang, Junrui and Fei, Ping and Yuan, Yuanzhi and Huang, Danqing and Huang, Yuqiang and Peng, Jie and Xie, Xiaoling and Xie, Meng and Zhao, Peiquan and Chen, Li and Zhang, Mingzhi",
-  journal = "Br. J. Ophthalmol.",
-  publisher = "BMJ",
-  volume =  108,
-  number =  10,
-  pages = "1390--1397",
-  month =  "20~" # sep,
-  year =  2024,
-  doi = "10.1136/bjo-2023-324526",
-  pmid =  39019566,
-  issn = "0007-1161,1468-2079"
-}
-,@INPROCEEDINGS{DeYoung2021-ql,
-  title = "{MSˆ2}: Multi-Document Summarization of Medical Studies",
-  author = "DeYoung, Jay and Beltagy, Iz and van Zuylen, Madeleine and Kuehl, Bailey and Wang, Lucy",
-  editor = "Moens, Marie-Francine and Huang, Xuanjing and Specia, Lucia and Yih, Scott Wen-Tau",
-  booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
-  publisher = "Association for Computational Linguistics",
-  address = "Stroudsburg, PA, USA",
-  pages = "7494--7513",
-  year =  2021,
-  doi = "10.18653/v1/2021.emnlp-main.594"
-}
-,@ARTICLE{Peng2023-zx,
-  title = "{AI}-generated text may have a role in evidence-based medicine",
-  author = "Peng, Yifan and Rousseau, Justin F and Shortliffe, Edward H and Weng, Chunhua",
-  journal = "Nat. Med.",
-  volume =  29,
-  number =  7,
-  pages = "1593--1594",
-  month =  jul,
-  year =  2023,
-  doi = "10.1038/s41591-023-02366-9",
-  pmc = "PMC11193148",
-  pmid =  37221382,
-  issn = "1078-8956,1546-170X"
-}
-,@ARTICLE{Xu2023-au,
-  title = "{OncoCTMiner}: streamlining precision oncology trial matching via molecular profile analysis",
-  author = "Xu, Quan and Liu, Yueyue and Sun, Dawei and Huang, Xiaoqian and Li, Feihong and Zhai, Jincheng and Li, Yang and Zhou, Qiming and Qian, Niansong and Niu, Beifang",
-  journal = "Database (Oxford)",
-  publisher = "Oxford Academic",
-  volume =  2023,
-  pages = "baad077",
-  month =  "4~" # nov,
-  year =  2023,
-  doi = "10.1093/database/baad077",
-  pmc = "PMC10630409",
-  pmid =  37935585,
-  issn = "1758-0463"
-}
-,@ARTICLE{Sanchez-Graillet2022-up,
-  title = "An annotated corpus of clinical trial publications supporting schema-based relational information extraction",
-  author = "Sanchez-Graillet, Olivia and Witte, Christian and Grimm, Frank and Cimiano, Philipp",
-  journal = "J. Biomed. Semantics",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  13,
-  number =  1,
-  pages =  14,
-  month =  "23~" # may,
-  year =  2022,
-  doi = "10.1186/s13326-022-00271-7",
-  pmc = "PMC9128209",
-  pmid =  35606797,
-  issn = "2041-1480,2041-1480"
-}
-,@ARTICLE{Sarker2020-uh,
-  title = "A light-weight text summarization system for fast access to medical evidence",
-  author = "Sarker, Abeed and Yang, Yuan-Chi and Al-Garadi, Mohammed Ali and Abbas, Aamir",
-  journal = "Front. Digit. Health",
-  publisher = "Frontiers Media SA",
-  volume =  2,
-  pages =  585559,
-  month =  "4~" # dec,
-  year =  2020,
-  doi = "10.3389/fdgth.2020.585559",
-  pmc = "PMC8521877",
-  pmid =  34713057,
-  issn = "2673-253X"
-}
-,@ARTICLE{Gates2020-zn,
-  title = "The anatomy of the {SARS}-{CoV}-2 biomedical literature: Introducing the {CovidX} network algorithm for drug repurposing recommendation",
-  author = "Gates, Lyndsey Elaine and Hamed, Ahmed Abdeen",
-  journal = "J. Med. Internet Res.",
-  publisher = "JMIR Publications Inc.",
-  volume =  22,
-  number =  8,
-  pages = "e21169",
-  month =  "20~" # aug,
-  year =  2020,
-  doi = "10.2196/21169",
-  pmc = "PMC7474417",
-  pmid =  32735546,
-  issn = "1439-4456,1438-8871"
-}
-,@INPROCEEDINGS{suwarningsih2015extraction-k,
-  title = "Extraction of predicate-argument structure from sentence based on {PICO} frames",
-  author = "Suwarningsih, Wiwin and Purwarianti, Ayu and Supriana, Iping",
-  booktitle = "2015 International Conference on Automation, Cognitive Science, Optics, Micro Electro-Mechanical System, and Information Technology (ICACOMIT)",
-  publisher = "IEEE",
-  pages = "91--95",
-  month =  oct,
-  year =  2015,
-  doi = "10.1109/icacomit.2015.7440182",
-  isbn = "9781467374088,9781467374071"
-}
-,@ARTICLE{Eriksen2018-sx,
-  title = "The impact of patient, intervention, comparison, outcome ({PICO}) as a search strategy tool on literature search quality: a systematic review",
-  author = "Eriksen, Mette Brandt and Frandsen, Tove Faber",
-  journal = "J. Med. Libr. Assoc.",
-  publisher = "University Library System, University of Pittsburgh",
-  volume =  106,
-  number =  4,
-  pages = "420--431",
-  month =  oct,
-  year =  2018,
-  doi = "10.5195/jmla.2018.345",
-  pmc = "PMC6148624",
-  pmid =  30271283,
-  issn = "1536-5050,1558-9439"
-}
-,@ARTICLE{Mutinda2022-jx,
-  title = "Automatic data extraction to support meta-analysis statistical analysis: a case study on breast cancer",
-  author = "Mutinda, Faith Wavinya and Liew, Kongmeng and Yada, Shuntaro and Wakamiya, Shoko and Aramaki, Eiji",
-  journal = "BMC Med. Inform. Decis. Mak.",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  22,
-  number =  1,
-  pages =  158,
-  month =  "18~" # jun,
-  year =  2022,
-  doi = "10.1186/s12911-022-01897-4",
-  pmc = "PMC9206132",
-  pmid =  35717167,
-  issn = "1472-6947,1472-6947"
-}
-,@ARTICLE{Brassey2021-ua,
-  title = "Developing a fully automated evidence synthesis tool for identifying, assessing and collating the evidence",
-  author = "Brassey, Jon and Price, Christopher and Edwards, Jonny and Zlabinger, Markus and Bampoulidis, Alexandros and Hanbury, Allan",
-  journal = "BMJ Evid. Based Med.",
-  publisher = "BMJ",
-  volume =  26,
-  number =  1,
-  pages = "24--27",
-  month =  "1~" # feb,
-  year =  2021,
-  doi = "10.1136/bmjebm-2018-111126",
-  pmid =  31467247,
-  issn = "2515-446X,2515-4478"
-}
-,@ARTICLE{Nye2018-zs,
-  title = "A corpus with multi-level annotations of patients, interventions and Outcomes to support language processing for medical literature",
-  author = "Nye, Benjamin and Jessy Li, Junyi and Patel, Roma and Yang, Yinfei and Marshall, Iain J and Nenkova, Ani and Wallace, Byron C",
-  journal = "Proc. Conf. Assoc. Comput. Linguist. Meet.",
-  volume =  2018,
-  pages = "197--207",
-  month =  jul,
-  year =  2018,
-  pmc = "PMC6174533",
-  pmid =  30305770,
-  issn = "0736-587X"
-}
-,@INPROCEEDINGS{Devi2024-av,
-  title = "Automating clinical trial eligibility screening: Quantitative analysis of {GPT} models versus human expertise",
-  author = "Devi, Arti and Uttrani, Shashank and Singla, Aryansh and Jha, Sarthak and Dasgupta, Nataraj and Natarajan, Sayee and S. Punekar, Rajeshwari and A. Pickett, Larry and Dutt, Varun",
-  booktitle = "Proceedings of the 17th International Conference on PErvasive Technologies Related to Assistive Environments",
-  publisher = "ACM",
-  address = "New York, NY, USA",
-  month =  "26~" # jun,
-  year =  2024,
-  doi = "10.1145/3652037.3663922"
-}
-,@ARTICLE{Rybinski2020-mz,
-  title = "Clinical trial search: Using biomedical language understanding models for re-ranking",
-  author = "Rybinski, Maciej and Xu, Jerry and Karimi, Sarvnaz",
-  journal = "J. Biomed. Inform.",
-  publisher = "Elsevier BV",
-  volume =  109,
-  number =  103530,
-  pages =  103530,
-  month =  "1~" # sep,
-  year =  2020,
-  doi = "10.1016/j.jbi.2020.103530",
-  pmid =  32818666,
-  issn = "1532-0464,1532-0480"
-}
-,@ARTICLE{Lan2024-yd,
-  title = "Automatic categorization of self-acknowledged limitations in randomized controlled trial publications",
-  author = "Lan, Mengfei and Cheng, Mandy and Hoang, Linh and Ter Riet, Gerben and Kilicoglu, Halil",
-  journal = "J. Biomed. Inform.",
-  publisher = "Academic Press",
-  volume =  152,
-  pages =  104628,
-  month =  "1~" # apr,
-  year =  2024,
-  doi = "10.1016/j.jbi.2024.104628",
-  pmid =  38548008,
-  issn = "1532-0464,1532-0480"
-}
-,@INPROCEEDINGS{Mohammed2023-mt,
-  title = "Integrating a {PICO} clinical questioning to the {QL4POMR} framework for building evidence-based clinical case reports",
-  author = "Mohammed, Sabah and Fiaidhi, Jinan and Kudadiya, Rahul",
-  booktitle = "2023 IEEE International Conference on Big Data (BigData)",
-  publisher = "IEEE",
-  volume =  4,
-  pages = "4940--4947",
-  month =  "15~" # dec,
-  year =  2023,
-  doi = "10.1109/bigdata59044.2023.10386854"
-}
-,@ARTICLE{Dobbins2022-et,
-  title = "The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria",
-  author = "Dobbins, Nicholas J and Mullen, Tony and Uzuner, Özlem and Yetisgen, Meliha",
-  journal = "Sci. Data",
-  publisher = "Springer Science and Business Media LLC",
-  volume =  9,
-  number =  1,
-  pages =  490,
-  month =  "11~" # aug,
-  year =  2022,
-  doi = "10.1038/s41597-022-01521-0",
-  pmc = "PMC9372145",
-  pmid =  35953524,
-  issn = "2052-4463,2052-4463"
-}
-,@INPROCEEDINGS{Pan2021-eg,
-  title = "Knowledge graph based platform of {COVID}-19 drugs and symptoms",
-  author = "Pan, Zhenhe and Jiang, Shuang and Su, Juntao and Guo, Muzhe and Zhang, Yuanlin",
-  booktitle = "Proceedings of the 2021 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
-  publisher = "ACM",
-  address = "New York, NY, USA",
-  month =  "8~" # nov,
-  year =  2021,
-  doi = "10.1145/3487351.3489484"
-}
-,@ARTICLE{Van-de-Vliet2023-fr,
-  title = "The application of evidence-based medicine in individualized medicine",
-  author = "Van de Vliet, Peter and Sprenger, Tobias and Kampers, Linde F C and Makalowski, Jennifer and Schirrmacher, Volker and Stücker, Wilfried and Van Gool, Stefaan W",
-  journal = "Biomedicines",
-  publisher = "Multidisciplinary Digital Publishing Institute  (MDPI)",
-  volume =  11,
-  number =  7,
-  month =  "23~" # jun,
-  year =  2023,
-  doi = "10.3390/biomedicines11071793",
-  pmc = "PMC10376974",
-  pmid =  37509433,
-  issn = "2227-9059"
-}
-,@INPROCEEDINGS{Wang2022-xs,
-  title = "{Trial2Vec}: Zero-shot clinical trial document similarity search using self-supervision",
-  author = "Wang, Zifeng and Sun, Jimeng",
-  booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
-  publisher = "Association for Computational Linguistics",
-  address = "Stroudsburg, PA, USA",
-  pages = "6377--6390",
-  month =  dec,
-  year =  2022,
-  doi = "10.18653/v1/2022.findings-emnlp.476"
-}
-,@ARTICLE{Saiz2021-vk,
-  title = "Artificial intelligence clinical evidence engine for automatic identification, prioritization, and extraction of relevant clinical oncology research",
-  author = "Saiz, Fernando Suarez and Sanders, Corey and Stevens, Rick and Nielsen, Robert and Britt, Michael and Yuravlivker, Leemor and Preininger, Anita M and Jackson, Gretchen P",
-  journal = "JCO Clin. Cancer Inform.",
-  publisher = "American Society of Clinical Oncology (ASCO)",
-  volume =  5,
-  number =  5,
-  pages = "102--111",
-  month =  jan,
-  year =  2021,
-  doi = "10.1200/CCI.20.00087",
-  pmc = "PMC8140792",
-  pmid =  33439724,
-  issn = "2473-4276"
-}
-,@INPROCEEDINGS{Lalitha2023-tk,
-  title = "Text summarization of medical documents using abstractive techniques",
-  author = "Lalitha, Evani and Ramani, Kasarapu and Shahida, Dudekula and Deepak, Esikela Venkata Sai and Bindu, M Hima and Shaikshavali, Diguri",
-  booktitle = "2023 2nd International Conference on Applied Artificial Intelligence and Computing (ICAAIC)",
-  publisher = "IEEE",
-  pages = "939--943",
-  month =  "4~" # may,
-  year =  2023,
-  doi = "10.1109/icaaic56838.2023.10140885",
-  isbn = "9781665456302,9781665456296"
-}
-,@INPROCEEDINGS{Jin2018-tj,
-  title = "{PICO} element detection in medical text via long short-term memory neural networks",
-  author = "Jin, Di and Szolovits, Peter",
-  booktitle = "Proceedings of the BioNLP 2018 workshop",
-  publisher = "Association for Computational Linguistics",
-  address = "Stroudsburg, PA, USA",
-  year =  2018,
-  doi = "10.18653/v1/w18-2308"
-}
-,@ARTICLE{Johnston2024-od,
-  title = "Using artificial intelligence to identify drugs for repurposing to treat l-{DOPA}-induced dyskinesia",
-  author = "Johnston, Tom H and Lacoste, Alix M B and Ravenscroft, Paula and Su, Jin and Tamadon, Sahar and Seifi, Mahtab and Lang, Anthony E and Fox, Susan H and Brotchie, Jonathan M and Visanji, Naomi P",
-  journal = "Neuropharmacology",
-  publisher = "Elsevier BV",
-  volume =  248,
-  number =  109880,
-  pages =  109880,
-  month =  "1~" # may,
-  year =  2024,
-  doi = "10.1016/j.neuropharm.2024.109880",
-  pmid =  38412888,
-  issn = "0028-3908,1873-7064"
-}
-,@ARTICLE{Gorska2024-qy,
-  title = "Towards autonomous living meta-analyses: A framework for automation of systematic review and meta-analyses",
-  author = "Górska, Anna and Tacconelli, Evelina",
-  journal = "Stud. Health Technol. Inform.",
-  publisher = "IOS Press",
-  volume =  316,
-  pages = "378--382",
-  month =  "22~" # aug,
-  year =  2024,
-  doi = "10.3233/SHTI240427",
-  pmid =  39176757,
-  issn = "0926-9630,1879-8365"
-}
-,@INPROCEEDINGS{Daluwatumulle2022-as,
-  title = "In Silico Drug Repurposing using Knowledge Graph Embeddings for Alzheimer's Disease",
-  author = "Daluwatumulle, Geesa and Wijesinghe, Rupika and Weerasinghe, Ruvan",
-  booktitle = "Proceedings of the 9th International Conference on Bioinformatics Research and Applications",
-  publisher = "ACM",
-  address = "New York, NY, USA",
-  pages = "61--66",
-  month =  "18~" # sep,
-  year =  2022,
-  doi = "10.1145/3569192.3569203",
-  isbn =  9781450396868
-}
+
 ,@ARTICLE{Li2022-kv,
   title = "A comparative study of pre-trained language models for named entity recognition in clinical trial eligibility criteria from multiple corpora",
   author = "Li, Jianfu and Wei, Qiang and Ghiasvand, Omid and Chen, Miao and Lobanov, Victor and Weng, Chunhua and Xu, Hua",
