@@ -210,6 +210,21 @@ Here is the Markdown table ordered by year (from latest to earliest):
 - **Knowledge graph based platform of {COVID}-19 drugs and symptoms** (2021), Pan, Zhenhe et al.  (https://doi.org/10.1145/3487351.3489484)
 - **{AutoTrial}: Prompting Language Models for Clinical Trial Design** (2023), Wang, Zifeng et al.
 
+| Paper | Venue | Date |
+|-------|-------|------|
+| [**AutoTrial: Prompting Language Models for Clinical Trial Design**](#) | - | 2023 |
+| [**LeafAI: query generator for clinical cohort discovery rivaling a human programmer**](https://doi.org/10.1093/jamia/ocad149) | JAMIA | 2023 |
+| [**Controversial Trials First: Identifying Disagreement Between Clinical Guidelines and New Evidence**](#) | - | 2022 |
+| [**The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria**](https://doi.org/10.1038/s41597-022-01521-0) | Scientific Data | 2022 |
+| [**Evaluation of Criteria2Query: Towards Augmented Intelligence for Cohort Identification**](https://doi.org/10.3233/SHTI220082) | Studies in Health Technology and Informatics | 2022 |
+| [**Knowledge graph based platform of COVID-19 drugs and symptoms**](https://doi.org/10.1145/3487351.3489484) | ACM | 2021 |
+| [**Enhancing evidence-based medicine with natural language argumentative analysis of clinical trials**](https://doi.org/10.1016/j.artmed.2021.102098) | Artificial Intelligence in Medicine | 2021 |
+| [**A knowledge base of clinical trial eligibility criteria**](https://doi.org/10.1016/j.jbi.2021.103771) | Journal of Biomedical Informatics | 2021 |
+| [**MS²: Multi-Document Summarization of Medical Studies**](https://doi.org/10.18653/v1/2021.emnlp-main.594) | EMNLP | 2021 |
+| [**srBERT: automatic article classification model for systematic review using BERT**](https://doi.org/10.1186/s13643-021-01763-w) | Systematic Reviews | 2021 |
+| [**Linking Knowledge Discovery In Clinical Notes And Massive Biomedical Literature Repositories**](https://ieeexplore.ieee.org/document/RelevantDocumentNumber) | IEEE | 2019 |
+| [**An approach for transgender population information extraction and summarization from clinical trial text**](https://doi.org/10.1186/s12911-019-0768-1) | BMC Medical Informatics and Decision Making | 2019 |
+
 
 
 ### 3. Appraise, Synthesize, and Summarization
