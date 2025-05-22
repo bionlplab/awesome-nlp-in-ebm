@@ -65,24 +65,23 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [DQueST: dynamic questionnaire for search of clinical trials](https://doi.org/10.1093/jamia/ocz121) | JAMIA | 2019 |
 | [Linking Knowledge Discovery In Clinical Notes And Massive Biomedical Literature Repositories](https://ieeexplore.ieee.org/document/RelevantDocumentNumber) | IEEE | 2019 |
 | [An Experimentation Platform for Precision Medicine](https://doi.org/10.1145/3331184.3331396) | ACM | 2019 |
-
-- Linking Knowledge Discovery In Clinical Notes And Massive Biomedical Literature Repositories (2019), Mohammad S. Alodadi et al.  (https://ieeexplore.ieee.org/document/RelevantDocumentNumber)
-- In Silico Drug Repurposing using Knowledge Graph Embeddings for Alzheimer's Disease (2022), Daluwatumulle, Geesa et al.  (https://doi.org/10.1145/3569192.3569203)
-- {LeafAI}: query generator for clinical cohort discovery rivaling a human programmer (2023), Dobbins, Nicholas J. et al.  (https://doi.org/10.1093/jamia/ocad149)
-- {COVID-19} trial graph: a linked graph for COVID-19 clinical trials (2021), Du, Jingcheng et al.  (https://doi.org/10.1093/jamia/ocab078)
-- The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation (2024), Gwon, YN et al.  (https://doi.org/10.2196/51187)
-- Matching patients to clinical trials using semantically enriched document representation (2020), Hassanzadeh, Hamed et al.  (https://doi.org/10.1016/j.jbi.2020.103406)
-- State-of-the-Art Evidence Retriever for Precision Medicine: Algorithm Development and Validation (2022), Qiao Jin et al.  (https://doi.org/10.2196/40743)
-- Matching patients to clinical trials with large language models (2024), Jin, Qiao et al.
-- A probabilistic precision information retrieval model for personalized clinical trial recommendation based on heterogeneous data (2021), Kamath, Sowmya et al.  (https://doi.org/10.1109/icccnt51525.2021.9579891)
-- Precision Medicine Search for Paediatric Oncology (2021), Koopman, Bevan et al.  (https://doi.org/10.1145/3404835.3462792)
-- Cohort-based Clinical Trial Retrieval (2022), Koopman, Bevan et al.  (https://doi.org/10.1145/3503516.3503529)
-- Automate clinical evidence synthesis by linking trials to publications with text analytics (2021), Li, Chao et al.  (https://doi.org/10.1145/3459104.3459168)
-- DQueST: dynamic questionnaire for search of clinical trials (2019), Cong Liu et al.  (https://doi.org/10.1093/jamia/ocz121)
-- Deep learning to refine the identification of high-quality clinical research articles from the biomedical literature: Performance evaluation (2023), Lokker, Cynthia et al.  (https://doi.org/10.1016/j.jbi.2023.104384)
-- In a pilot study, automated real-time systematic review updates were feasible, accurate, and work-saving (2023), Marshall, Iain J et al.  (https://doi.org/10.1016/j.jclinepi.2022.08.013)
-- Investigation into Scaling-Up the SOAP Problem-Oriented Medical Record into a Clinical Case Study (2023), Sabah Mohammed et al.  (https://doi.org/10.1109/ICHI57859.2023.00134)
-- Preliminary Comparison of the Performance of the National Library of Medicine's Systematic Review Publication Type and the Sensitive Clinical Queries Filter for Systematic Reviews in PubMed (2022), Tamara Navarro-Ruan et al.  (https://doi.org/10.5195/jmla.2022.1286)
+| [Linking Knowledge Discovery In Clinical Notes And Massive Biomedical Literature Repositories](https://ieeexplore.ieee.org/abstract/document/8983242) | IEEE | 2019 |
+| [In Silico Drug Repurposing using Knowledge Graph Embeddings for Alzheimer's Disease](https://doi.org/10.1145/3569192.3569203) | ACM | 2022 |
+| [{LeafAI}: query generator for clinical cohort discovery rivaling a human programmer](https://doi.org/10.1093/jamia/ocad149) | JAMIA | 2023 |
+| [{COVID-19} trial graph: a linked graph for COVID-19 clinical trials](https://doi.org/10.1093/jamia/ocab078) | JAMIA | 2021 |
+| [The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation](https://doi.org/10.2196/51187) | Journal of Medical Internet Research | 2024 |
+| [Matching patients to clinical trials using semantically enriched document representation](https://doi.org/10.1016/j.jbi.2020.103406) | Journal of Biomedical Informatics | 2020 |
+| [State-of-the-Art Evidence Retriever for Precision Medicine: Algorithm Development and Validation](https://doi.org/10.2196/40743) | Journal of Medical Internet Research | 2022 |
+| Matching patients to clinical trials with large language models | Nature Communications | 2024 |
+| [A probabilistic precision information retrieval model for personalized clinical trial recommendation based on heterogeneous data](https://doi.org/10.1109/icccnt51525.2021.9579891) | IEEE | 2021 |
+| [Precision Medicine Search for Paediatric Oncology](https://doi.org/10.1145/3404835.3462792) | ACM | 2021 |
+| [Cohort-based Clinical Trial Retrieval](https://doi.org/10.1145/3503516.3503529) | ACM | 2022 |
+| [Automate clinical evidence synthesis by linking trials to publications with text analytics](https://doi.org/10.1145/3459104.3459168) | ACM | 2021 |
+| [DQueST: dynamic questionnaire for search of clinical trials](https://doi.org/10.1093/jamia/ocz121) | JAMIA | 2019 |
+| [Deep learning to refine the identification of high-quality clinical research articles from the biomedical literature: Performance evaluation](https://doi.org/10.1016/j.jbi.2023.104384) | Journal of Biomedical Informatics | 2023 |
+| [In a pilot study, automated real-time systematic review updates were feasible, accurate, and work-saving](https://doi.org/10.1016/j.jclinepi.2022.08.013) | Journal of Clinical Epidemiology | 2023 |
+| [Investigation into Scaling-Up the SOAP Problem-Oriented Medical Record into a Clinical Case Study](https://doi.org/10.1109/ICHI57859.2023.00134) | IEEE | 2023 |
+| [Preliminary Comparison of the Performance of the National Library of Medicine's Systematic Review Publication Type and the Sensitive Clinical Queries Filter for Systematic Reviews in PubMed](https://doi.org/10.5195/jmla.2022.1286) | Journal of the Medical Library Association | 2022 |
 - An Experimentation Platform for Precision Medicine (2019), Nguyen, Vincent et al.  (https://doi.org/10.1145/3331184.3331396)
 - Automatically Summarizing Evidence from Clinical Trials: A Prototype Highlighting Current Challenges (2023), Sanjana Ramprasad et al.
 - {A2A}: a platform for research in biomedical literature search (2020), Rybinski, Maciej et al.  (https://doi.org/10.1186/s12859-020-03894-8)
