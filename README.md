@@ -44,7 +44,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [LeafAI: query generator for clinical cohort discovery rivaling a human programmer](https://doi.org/10.1093/jamia/ocad149) | JAMIA | 2023 |
 | [Deep learning to refine the identification of high-quality clinical research articles from the biomedical literature: Performance evaluation](https://doi.org/10.1016/j.jbi.2023.104384) | JBI | 2023 |
 | [ScanMedicine: An online search system for medical innovation](https://doi.org/10.1016/j.cct.2022.107042) | Contemporary Clinical Trials | 2023 |
-| Automatically Summarizing Evidence from Clinical Trials: A Prototype Highlighting Current Challenges | - | 2023 |
+| [Automatically Summarizing Evidence from Clinical Trials: A Prototype Highlighting Current Challenges](https://pmc.ncbi.nlm.nih.gov/articles/PMC10361334/) | ACL | 2023 |
 | [Investigation into Scaling-Up the SOAP Problem-Oriented Medical Record into a Clinical Case Study](https://doi.org/10.1109/ICHI57859.2023.00134) | IEEE ICHI | 2023 |
 | [In a pilot study, automated real-time systematic review updates were feasible, accurate, and work-saving](https://doi.org/10.1016/j.jclinepi.2022.08.013) | J Clin Epidemiol | 2023 |
 | [In Silico Drug Repurposing using Knowledge Graph Embeddings for Alzheimer's Disease](https://doi.org/10.1145/3569192.3569203) | ACM | 2022 |
@@ -83,7 +83,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Investigation into Scaling-Up the SOAP Problem-Oriented Medical Record into a Clinical Case Study](https://doi.org/10.1109/ICHI57859.2023.00134) | IEEE | 2023 |
 | [Preliminary Comparison of the Performance of the National Library of Medicine's Systematic Review Publication Type and the Sensitive Clinical Queries Filter for Systematic Reviews in PubMed](https://doi.org/10.5195/jmla.2022.1286) | Journal of the Medical Library Association | 2022 |
 | [An Experimentation Platform for Precision Medicine](https://doi.org/10.1145/3331184.3331396) | ACM | 2019 |
-| Automatically Summarizing Evidence from Clinical Trials: A Prototype Highlighting Current Challenges | ACL | 2023 |
+| [Automatically Summarizing Evidence from Clinical Trials: A Prototype Highlighting Current Challenges](https://pmc.ncbi.nlm.nih.gov/articles/PMC10361334/) | ACL | 2023 |
 | [{A2A}: a platform for research in biomedical literature search](https://doi.org/10.1186/s12859-020-03894-8) | BMC Bioinformatics | 2020 |
 | [Clinical trial search: Using biomedical language understanding models for re-ranking](https://doi.org/10.1016/j.jbi.2020.103530) | Journal of Biomedical Informatics | 2020 |
 | [ScanMedicine: An online search system for medical innovation](https://doi.org/10.1016/j.cct.2022.107042) | Contemporary Clinical Trials | 2023 |
@@ -104,7 +104,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [{srBERT}: automatic article classification model for systematic review using BERT](https://doi.org/10.1186/s13643-021-01763-w) | BMC Systematic Reviews | 2021 |
 | [Utilizing Large Language Models for Enhanced Clinical Trial Matching: A Study on Automation in Patient Screening](https://doi.org/10.7759/cureus.60044) | Cureus | 2024 |
 | [Artificial intelligence tool for optimizing eligibility screening for clinical trials in a large community cancer center](https://doi.org/10.1200/CCI.19.00079) | JCO Clinical Cancer Informatics | 2020 |
-| Controversial Trials First: Identifying Disagreement Between Clinical Guidelines and New Evidence | AMIA | 2022 |
+| [Controversial Trials First: Identifying Disagreement Between Clinical Guidelines and New Evidence](https://pubmed.ncbi.nlm.nih.gov/35308948/) | AMIA | 2022 |
 | [Developing a fully automated evidence synthesis tool for identifying, assessing and collating the evidence](https://doi.org/10.1136/bmjebm-2018-111126) | BMJ Evidence-Based Medicine | 2021 |
 | [Improving reference prioritisation with PICO recognition](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-019-0974-4) | BMC Medical Informatics and Decision Making | 2019 |
 | [An approach for transgender population information extraction and summarization from clinical trial text](https://doi.org/10.1186/s12911-019-0768-1) | BMC Medical Informatics and Decision Making | 2019 |
