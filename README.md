@@ -90,7 +90,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Evaluation of Applied Machine Learning for Health Misinformation Detection via Survey of Medical Professionals on Controversial Topics in Pediatrics](https://doi.org/10.1145/3472813.3472814) | ACM | 2021 |
 | [Natural Language Processing for Mimicking Clinical Trial Recruitment in Critical Care: A Semi-Automated Simulation Based on the LeoPARDS Trial](https://doi.org/10.1109/JBHI.2020.2977925) | IEEE Journal of Biomedical and Health Informatics | 2020 |
 | [Improvement of intervention information detection for automated clinical literature screening during systematic review](https://doi.org/10.1016/j.jbi.2022.104185) | Journal of Biomedical Informatics | 2022 |
-| [{Trial2Vec}: Zero-Shot Clinical Trial Document Similarity Search using Self-Supervision](https://doi.org/10.18653/v1/2022.findings-emnlp.476) | EMNLP Findings | 2022 |
+| [{Trial2Vec}: Zero-Shot Clinical Trial Document Similarity Search using Self-Supervision](https://doi.org/10.18653/v1/2022.findings-emnlp.476) | EMNLP | 2022 |
 | [A span-based model for extracting overlapping {PICO} entities from randomized controlled trial publications](https://doi.org/10.1093/jamia/ocae065) | JAMIA | 2024 |
 
 
@@ -98,9 +98,9 @@ Here is the Markdown table ordered by year (from latest to earliest):
 #### Entity Extraction and Normalization
 | Paper | Venue | Date |
 |---|---|---|
-| [Improving Disease Named Entity Recognition for Clinical Trial Matching](https://doi.org/10.1109/BIBM47256.2019.8983421) | IEEE | 2019 |
+| [Improving Disease Named Entity Recognition for Clinical Trial Matching](https://doi.org/10.1109/BIBM47256.2019.8983421) | BIBM | 2019 |
 | [Evaluation of an artificial intelligence clinical trial matching system in Australian lung cancer patients](https://doi.org/10.1093/jamiaopen/ooaa002) | JAMIA Open | 2020 |
-| [Linking Knowledge Discovery In Clinical Notes And Massive Biomedical Literature Repositories](https://ieeexplore.ieee.org/document/RelevantDocumentNumber) | IEEE | 2019 |
+| [Linking Knowledge Discovery In Clinical Notes And Massive Biomedical Literature Repositories](https://doi.org/10.1109/BIBM47256.2019.8983242) | BIBM | 2019 |
 | [{srBERT}: automatic article classification model for systematic review using BERT](https://doi.org/10.1186/s13643-021-01763-w) | BMC Systematic Reviews | 2021 |
 | [Utilizing Large Language Models for Enhanced Clinical Trial Matching: A Study on Automation in Patient Screening](https://doi.org/10.7759/cureus.60044) | Cureus | 2024 |
 | [Artificial intelligence tool for optimizing eligibility screening for clinical trials in a large community cancer center](https://doi.org/10.1200/CCI.19.00079) | JCO Clinical Cancer Informatics | 2020 |
