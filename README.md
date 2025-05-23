@@ -110,7 +110,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [An approach for transgender population information extraction and summarization from clinical trial text](https://doi.org/10.1186/s12911-019-0768-1) | BMC Medical Informatics and Decision Making | 2019 |
 | [Medical Knowledge Infused Convolutional Neural Networks for Cohort Selection in Clinical Trials](https://doi.org/10.1093/jamia/ocz128) | JAMIA | 2019 |
 | [Clinical trial cohort selection based on multi-level rule-based natural language processing system](https://doi.org/10.1093/jamia/ocz109) | JAMIA | 2019 |
-| [Creating and evaluating chatbots as eligibility assistants for clinical trials: An active deep learning approach towards user-centered classification](https://doi.org/10.1145/3403575) | ACM | 2021 |
+| [Creating and evaluating chatbots as eligibility assistants for clinical trials: An active deep learning approach towards user-centered classification](https://doi.org/10.1145/3403575) | ACM Transactions on Computing for Healthcare | 2021 |
 | [Natural language processing for adjudication of heart failure in a multicenter clinical trial: A secondary analysis of a randomized clinical trial](https://doi.org/10.1001/jamacardio.2023.4859) | JAMA Cardiology | 2024 |
 | [In Silico Drug Repurposing using Knowledge Graph Embeddings for Alzheimer's Disease](https://doi.org/10.1145/3569192.3569203) | ACM | 2022 |
 | [AutoCriteria: a generalizable clinical trial eligibility criteria extraction system powered by large language models](https://doi.org/10.1093/jamia/ocad218) | JAMIA | 2024 |
