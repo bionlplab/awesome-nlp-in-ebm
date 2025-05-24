@@ -104,7 +104,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Data Mining of Free-Text Responses: An Innovative Approach to Analyzing Patient Perspectives on Treatment for Chronic Rhinosinusitis with Nasal Polyps in a Phase IIa Proof-of-Concept Study for Dupilumab](https://doi.org/10.2147/PPA.S320242) | Patient Preference and Adherence | 2021 |
 | [A knowledge base of clinical trial eligibility criteria](https://doi.org/10.1016/j.jbi.2021.103771) | J Biomed Inform | 2021 |
 | [Evaluation of an artificial intelligence clinical trial matching system in Australian lung cancer patients](https://doi.org/10.1093/jamiaopen/ooaa002) | J Am Med Inform Assoc Open | 2020 |
-| [Artificial intelligence tool for optimizing eligibility screening for clinical trials in a large community cancer center](https://doi.org/10.1200/CCI.19.00079) | JCO Clinical Cancer Informatics | 2020 |
+| [Artificial intelligence tool for optimizing eligibility screening for clinical trials in a large community cancer center](https://doi.org/10.1200/CCI.19.00079) | JCO Clin Cancer Inform | 2020 |
 | [Machine Learning Assisted Citation Screening for Systematic Reviews](https://doi.org/10.3233/SHTI200171) | Stud Health Technol Inform | 2020 |
 | [The anatomy of the SARS-CoV-2 biomedical literature](https://doi.org/10.2196/21169) | JMIR Med Inform | 2020 |
 | [Matching patients to clinical trials using semantically enriched document representation](https://doi.org/10.1016/j.jbi.2020.103406) | J Biomed Inform | 2020 |
@@ -116,10 +116,10 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [An approach for transgender population information extraction and summarization from clinical trial text](https://doi.org/10.1186/s12911-019-0768-1) | BMC Med Inform Decis Mak | 2019 |
 | [Medical Knowledge Infused Convolutional Neural Networks for Cohort Selection in Clinical Trials](https://doi.org/10.1093/jamia/ocz128) | J Am Med Inform Assoc | 2019 |
 | [Clinical trial cohort selection based on multi-level rule-based natural language processing system](https://doi.org/10.1093/jamia/ocz109) | J Am Med Inform Assoc | 2019 |
-| [Extractive summarization of clinical trial descriptions](https://doi.org/10.1016/j.ijmedinf.2019.05.019) | International Journal of Medical Informatics | 2019 |
+| [Extractive summarization of clinical trial descriptions](https://doi.org/10.1016/j.ijmedinf.2019.05.019) | Int J Med Inform | 2019 |
 | [Pretraining to recognize PICO Elements from Randomized Controlled Trial Literature](https://doi.org/10.3233/SHTI190209) | Stud Health Technol Inform | 2019 |
 | [DQueST: dynamic questionnaire for search of clinical trials](https://doi.org/10.1093/jamia/ocz121) | J Am Med Inform Assoc | 2019 |
-| [Data-driven method to enhance craniofacial and oral phenotype vocabularies](https://doi.org/10.1016/j.adaj.2019.05.029) | Journal of the American Dental Association | 2019 |
+| [Data-driven method to enhance craniofacial and oral phenotype vocabularies](https://doi.org/10.1016/j.adaj.2019.05.029) | J Am Dent Assoc | 2019 |
 | [Impact of size, location, symptomatic-nature and gender on the rupture of saccular intracranial aneurysms](https://doi.org/10.1109/ASONAM.2018.8508274) | ASONAM | 2018 |
 
 
@@ -149,10 +149,10 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Automatic categorization of self-acknowledged limitations in randomized controlled trial publications](https://doi.org/10.1016/j.jbi.2024.104628) | J Biomed Inform | 2024 |
 | [Utilizing ChatGPT as a scientific reasoning engine to differentiate conflicting evidence and summarize challenges in controversial clinical questions](https://doi.org/10.1093/jamia/ocae100) | J Am Med Inform Assoc | 2024 |
 | [Deep learning to refine the identification of high-quality clinical research articles from the biomedical literature: Performance evaluation](https://doi.org/10.1016/j.jbi.2023.104384) | J Biomed Inform | 2023 |
-| [OncoCTMiner: streamlining precision oncology trial matching via molecular profile analysis](https://doi.org/10.1093/database/baad077) | Oxford Database | 2023 |
+| [OncoCTMiner: streamlining precision oncology trial matching via molecular profile analysis](https://doi.org/10.1093/database/baad077) | Database (Oxford) | 2023 |
 | [The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation](https://doi.org/10.2196/51187) | JMIR Med Inform | 2024 |
 | [State-of-the-Art Evidence Retriever for Precision Medicine: Algorithm Development and Validation](https://doi.org/10.2196/40743) | JMIR Med Inform | 2022 |
-| [Validating GAN-BioBERT: A Methodology for Assessing Reporting Trends in Clinical Trials](https://doi.org/10.3389/fdgth.2022.878369) | Frontiers in Digital Health | 2022 |
+| [Validating GAN-BioBERT: A Methodology for Assessing Reporting Trends in Clinical Trials](https://doi.org/10.3389/fdgth.2022.878369) | Front Digit Health | 2022 |
 | [Transformer-based named entity recognition for parsing clinical trial eligibility criteria](https://doi.org/10.1145/3459930.3469560) | BCB | 2021 |
 | [Developing a fully automated evidence synthesis tool for identifying, assessing and collating the evidence](https://doi.org/10.1136/bmjebm-2018-111126) | BMJ Evid Based Med | 2021 |
 | [Towards Automated Detection of Contradictory Research Claims in Medical Literature Using Deep Learning Approach](https://doi.org/10.1109/CAMP51653.2021.9498061) | CAMP | 2021 |
@@ -165,14 +165,14 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Towards autonomous living meta-analyses: A framework for automation of systematic review and meta-analyses](https://doi.org/10.3233/SHTI240427) | Stud Health Technol Inform | 2024 |
 | [Matching patients to clinical trials with large language models](https://www.nature.com/articles/s41467-024-53081-z) | Nat Commun | 2024 |
 | [Using artificial intelligence to identify drugs for repurposing to treat l-DOPA induced dyskinesia](https://doi.org/10.1016/j.neuropharm.2024.109880) | Neuropharmacology | 2024 |
-| [OncoCTMiner: streamlining precision oncology trial matching via molecular profile analysis](https://doi.org/10.1093/database/baad077) | Oxford Database | 2023 |
+| [OncoCTMiner: streamlining precision oncology trial matching via molecular profile analysis](https://doi.org/10.1093/database/baad077) | Database (Oxford) | 2023 |
 | [Piloting an automated clinical trial eligibility surveillance and provider alert system based on artificial intelligence and standard data models](https://doi.org/https://doi.org/10.1186/s12874-023-01916-6) | BMC Med Res Methodol | 2023 |
 | [Preliminary Comparison of the Performance of the National Library of Medicine's Systematic Review Publication Type and the Sensitive Clinical Queries Filter for Systematic Reviews in PubMed](https://doi.org/10.5195/jmla.2022.1286) | J Med Libr Assoc | 2022 |
 | [Cohort-based Clinical Trial Retrieval](https://doi.org/10.1145/3503516.3503529) | ADCS | 2022 |
 | [srBERT: automatic article classification model for systematic review using BERT](https://doi.org/10.1186/s13643-021-01763-w) | Syst Rev | 2021 |
 | [Automate clinical evidence synthesis by linking trials to publications with text analytics](https://doi.org/10.1145/3459104.3459168) | ISEEIE | 2021 |
 | [A probabilistic precision information retrieval model for personalized clinical trial recommendation based on heterogeneous data](https://doi.org/10.1109/icccnt51525.2021.9579891) | ICCCNT | 2021 |
-| [Artificial intelligence clinical evidence engine for automatic identification, prioritization, and extraction of relevant clinical oncology research](https://doi.org/10.1200/CCI.20.00087) | JCO Clinical Cancer Informatics | 2021 |
+| [Artificial intelligence clinical evidence engine for automatic identification, prioritization, and extraction of relevant clinical oncology research](https://doi.org/10.1200/CCI.20.00087) | JCO Clin Cancer Inform | 2021 |
 | [The anatomy of the SARS-CoV-2 biomedical literature: Introducing the CovidX network algorithm for drug repurposing recommendation](https://doi.org/10.2196/21169) | JMIR Med Inform | 2020 |
 | [Clinical trial search: Using biomedical language understanding models for re-ranking](https://doi.org/10.1016/j.jbi.2020.103530) | J Biomed Inform | 2020 |
 | [Improving reference prioritisation with PICO recognition](https://doi.org/10.1186/s12911-019-0992-8) | BMC Med Inform Decis Mak | 2019 |
@@ -208,9 +208,9 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Pre-trained language models with domain knowledge for biomedical extractive summarization](https://doi.org/10.1016/j.knosys.2022.109460) | Knowledge-Based Systems | 2022 |
 | [MSˆ2: Multi-Document Summarization of Medical Studies](https://doi.org/10.18653/v1/2021.emnlp-main.594) | EMNLP | 2021 |
 | [Knowledge graph based platform of COVID-19 drugs and symptoms](https://doi.org/10.1145/3487351.3489484) | ASONAM | 2021 |
-| [A light-weight text summarization system for fast access to medical evidence](https://doi.org/10.3389/fdgth.2020.585559) | Frontiers in Digital Health | 2020 |
+| [A light-weight text summarization system for fast access to medical evidence](https://doi.org/10.3389/fdgth.2020.585559) | Front Digit Health | 2020 |
 | [An approach for transgender population information extraction and summarization from clinical trial text](https://doi.org/10.1186/s12911-019-0768-1) | BMC Med Inform Decis Mak | 2019 |
-| [Extractive summarization of clinical trial descriptions](https://doi.org/10.1016/j.ijmedinf.2019.05.019) | International Journal of Medical Informatics | 2019 |
+| [Extractive summarization of clinical trial descriptions](https://doi.org/10.1016/j.ijmedinf.2019.05.019) | Int J Med Inform | 2019 |
 
 
 
@@ -230,7 +230,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Large Language Models for Healthcare Data Augmentation: An Example on Patient-Trial Matching](https://pmc.ncbi.nlm.nih.gov/articles/PMC10785941/) | AMIA | 2024 |
 | [LeafAI: query generator for clinical cohort discovery rivaling a human programmer](https://doi.org/10.1093/jamia/ocad149) | J Am Med Inform Assoc | 2023 |
 | [Automatic knowledge graph population with model-complete text comprehension for pre-clinical outcomes in the field of spinal cord injury](https://doi.org/10.1016/j.artmed.2023.102491) | Artif Intell Med | 2023 |
-| [Automated Matching of Patients to Clinical Trials: A Patient-Centric Natural Language Processing Approach for Pediatric Leukemia](https://doi.org/10.1200/CCI.23.00009) | JCO Clinical Cancer Informatics | 2023 |
+| [Automated Matching of Patients to Clinical Trials: A Patient-Centric Natural Language Processing Approach for Pediatric Leukemia](https://doi.org/10.1200/CCI.23.00009) | JCO Clin Cancer Inform | 2023 |
 | [Parsable Clinical Trial Eligibility Criteria Representation Using Natural Language Processing](https://pubmed.ncbi.nlm.nih.gov/37128426/) | AMIA | 2023 |
 | [Piloting an automated clinical trial eligibility surveillance and provider alert system based on artificial intelligence and standard data models](https://doi.org/https://doi.org/10.1186/s12874-023-01916-6) | BMC Med Res Methodol | 2023 |
 | [Parsing Clinical Trial Eligibility Criteria for Cohort Query by a Multi-Input Multi-Output Sequence Labeling Model](https://doi.org/10.1109/BIBM58861.2023.10385876) | BIBM | 2023 |
@@ -249,7 +249,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Transformer-based named entity recognition for parsing clinical trial eligibility criteria](https://doi.org/10.1145/3459930.3469560) | BCB | 2021 |
 | [Batch enrollment for an artificial intelligence-guided intervention to lower neurologic events in patients with undiagnosed atrial fibrillation: rationale and design of a digital clinical trial](https://doi.org/10.1016/j.ahj.2021.05.006) | American Heart Journal | 2021 |
 | [Evaluation of an artificial intelligence clinical trial matching system in Australian lung cancer patients](https://doi.org/10.1093/jamiaopen/ooaa002) | J Am Med Inform Assoc Open | 2020 |
-| [Artificial intelligence tool for optimizing eligibility screening for clinical trials in a large community cancer center](https://doi.org/10.1200/CCI.19.00079) | JCO Clinical Cancer Informatics | 2020 |
+| [Artificial intelligence tool for optimizing eligibility screening for clinical trials in a large community cancer center](https://doi.org/10.1200/CCI.19.00079) | JCO Clin Cancer Inform | 2020 |
 | [Matching patients to clinical trials using semantically enriched document representation](https://doi.org/10.1016/j.jbi.2020.103406) | J Biomed Inform | 2020 |
 | [Chia, a large annotated corpus of clinical trial eligibility criteria](https://doi.org/10.1038/s41597-020-00620-0) | Sci Data | 2020 |
 | [Natural Language Processing for Mimicking Clinical Trial Recruitment in Critical Care: A Semi-Automated Simulation Based on the LeoPARDS Trial](https://doi.org/10.1109/JBHI.2020.2977925) | IEEE Journal of Biomedical and Health Informatics | 2020 |
