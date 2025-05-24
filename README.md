@@ -89,41 +89,41 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Natural Language Processing for Mimicking Clinical Trial Recruitment in Critical Care](https://doi.org/10.1109/JBHI.2020.2977925) | IEEE Journal of Biomedical and Health Informatics | 2020 |
 | [srBERT: automatic article classification model for systematic review using BERT](https://doi.org/10.1186/s13643-021-01763-w) | BMC Systematic Reviews | 2021 |
 | [Creating and evaluating chatbots as eligibility assistants for clinical trials](https://doi.org/10.1145/3403575) | ACM Transactions on Computing for Healthcare | 2021 |
-| [Developing a fully automated evidence synthesis tool](https://doi.org/10.1136/bmjebm-2018-111126) | BMJ Evidence-Based Medicine | 2021 |
+| [Developing a fully automated evidence synthesis tool for identifying, assessing and collating the evidence](https://doi.org/10.1136/bmjebm-2018-111126) | BMJ Evidence-Based Medicine | 2021 |
 | [MSˆ2: Multi-Document Summarization of Medical Studies](https://doi.org/10.18653/v1/2021.emnlp-main.594) | EMNLP | 2021 |
-| [UMLS-based data augmentation for clinical research literature](https://doi.org/10.1093/jamia/ocaa309) | JAMIA | 2021 |
+| [UMLS-based data augmentation for natural language processing of clinical research literature](https://doi.org/10.1093/jamia/ocaa309) | JAMIA | 2021 |
 | [Precision Medicine Search for Paediatric Oncology](https://doi.org/10.1145/3404835.3462792) | SIGIR | 2021 |
-| [Data Mining of Free-Text Responses](https://doi.org/10.2147/PPA.S320242) | Patient Preference and Adherence | 2021 |
+| [{Data Mining of Free-Text Responses}: An Innovative Approach to Analyzing Patient Perspectives on Treatment for Chronic Rhinosinusitis with Nasal Polyps in a Phase IIa Proof-of-Concept Study for Dupilumab](https://doi.org/10.2147/PPA.S320242) | Patient Preference and Adherence | 2021 |
 | [A knowledge base of clinical trial eligibility criteria](https://doi.org/10.1016/j.jbi.2021.103771) | Journal of Biomedical Informatics | 2021 |
-| [Controversial Trials First](https://pubmed.ncbi.nlm.nih.gov/35308948/) | AMIA | 2022 |
+| [{Controversial Trials First}: Identifying Disagreement Between Clinical Guidelines and New Evidence](https://pubmed.ncbi.nlm.nih.gov/35308948/) | AMIA | 2022 |
 | [In Silico Drug Repurposing using Knowledge Graph Embeddings](https://doi.org/10.1145/3569192.3569203) | ICBRA | 2022 |
-| [The Leaf Clinical Trials Corpus](https://doi.org/10.1038/s41597-022-01521-0) | Scientific Data (Nature) | 2022 |
-| [Exploration of biomedical knowledge for recurrent glioblastoma](https://doi.org/10.1186/s12911-022-02003-4) | BMC Medical Informatics and Decision Making | 2022 |
-| [Implementation of Machine Learning Pipelines for Clinical Practice](https://doi.org/10.2196/37833) | Journal of Medical Internet Research | 2022 |
-| [A comparative study of pre-trained language models](https://doi.org/10.1186/s12911-022-01967-7) | BMC Medical Informatics and Decision Making | 2022 |
-| [Evaluation of Criteria2Query](https://doi.org/10.3233/SHTI220082) | Studies in Health Technology and Informatics | 2022 |
-| [Improvement of intervention information detection](https://doi.org/10.1016/j.jbi.2022.104185) | Journal of Biomedical Informatics | 2022 |
-| [Not so weak PICO](https://doi.org/10.1093/jamiaopen/ooac107) | JAMIA Open | 2023 |
-| [LeafAI: query generator for clinical cohort discovery](https://doi.org/10.1093/jamia/ocad149) | JAMIA | 2023 |
-| [Automatic knowledge graph population](https://doi.org/10.1016/j.artmed.2023.102491) | Artificial Intelligence in Medicine | 2023 |
-| [Towards precise PICO extraction](https://doi.org/10.1093/bioinformatics/btad542) | Bioinformatics | 2023 |
-| [EvidenceMap](https://doi.org/10.1093/jamia/ocad036) | JAMIA | 2023 |
-| [Automated Matching of Patients to Clinical Trials](https://doi.org/10.1200/CCI.23.00009) | JCO Clinical Cancer Informatics | 2023 |
-| [In a pilot study, automated real-time systematic review updates](https://doi.org/10.1016/j.jclinepi.2022.08.013) | Journal of Clinical Epidemiology | 2023 |
-| [Parsable Clinical Trial Eligibility Criteria](https://pubmed.ncbi.nlm.nih.gov/37128426/) | AMIA | 2023 |
-| [Piloting an automated clinical trial eligibility surveillance](https://doi.org/10.1186/s12874-023-01916-6) | BMC Medical Research Methodology | 2023 |
-| [Automatic categorization of self-acknowledged limitations](https://doi.org/10.1016/j.jbi.2024.104628) | Journal of Biomedical Informatics | 2024 |
-| [Utilizing Large Language Models for Enhanced Clinical Trial Matching](https://doi.org/10.7759/cureus.60044) | Cureus | 2024 |
-| [AutoCriteria](https://doi.org/10.1093/jamia/ocad218) | JAMIA | 2024 |
-| [Automating clinical trial eligibility screening](https://doi.org/10.1145/3652037.3663922) | PETRA | 2024 |
-| [Matching Patients to Accelerate Clinical Trials (MPACT)](https://doi.org/10.3233/SHTI231132) | Studies in Health Technology and Informatics | 2024 |
-| [The Use of Generative AI for Scientific Literature Searches](https://doi.org/10.2196/51187) | Journal of Medical Internet Research | 2024 |
-| [AlpaPICO](https://doi.org/10.1016/j.ymeth.2024.04.005) | Methods | 2024 |
-| [BLINKtextsubscriptLSTM](https://doi.org/10.1145/3632410.3632442) | CODS-COMAD | 2024 |
-| [PICO to PICOS](https://doi.org/10.3233/SHTI240775) | Studies in Health Technology and Informatics | 2024 |
-| [TCGA-Reports](https://doi.org/10.1016/j.patter.2024.100933) | Patterns | 2024 |
-| [Optimizing Clinical Trial Eligibility Design](https://doi.org/10.2196/50800) | Journal of Medical Internet Research | 2024 |
-| [Generative AI for evidence-based medicine](https://doi.org/10.1109/icc51166.2024.10622271) | IEEE ICC | 2024 |
+| [{The Leaf Clinical Trials Corpus}: a new resource for query generation from clinical trial eligibility criteria](https://doi.org/10.1038/s41597-022-01521-0) | Scientific Data (Nature) | 2022 |
+| [Exploration of biomedical knowledge for recurrent glioblastoma using natural language processing deep learning models](https://doi.org/10.1186/s12911-022-02003-4) | BMC Medical Informatics and Decision Making | 2022 |
+| [Implementation of Machine Learning Pipelines for Clinical Practice: Development and Validation Study](https://doi.org/10.2196/37833) | Journal of Medical Internet Research | 2022 |
+| [A comparative study of pre-trained language models for named entity recognition in clinical trial eligibility criteria from multiple corpora](https://doi.org/10.1186/s12911-022-01967-7) | BMC Medical Informatics and Decision Making | 2022 |
+| [{Evaluation of Criteria2Query}: Towards Augmented Intelligence for Cohort Identification](https://doi.org/10.3233/SHTI220082) | Studies in Health Technology and Informatics | 2022 |
+| [Improvement of intervention information detection for automated clinical literature screening during systematic review](https://doi.org/10.1016/j.jbi.2022.104185) | Journal of Biomedical Informatics | 2022 |
+| [{Not so weak PICO}:leveraging weak supervision for participants, interventions, and outcomes recognition for systematic review automatio](https://doi.org/10.1093/jamiaopen/ooac107) | JAMIA Open | 2023 |
+| [LeafAI: query generator for clinical cohort discovery rivaling a human programmer](https://doi.org/10.1093/jamia/ocad149) | JAMIA | 2023 |
+| [Automatic knowledge graph population with model-complete text comprehension for pre-clinical outcomes in the field of spinal cord injury](https://doi.org/10.1016/j.artmed.2023.102491) | Artificial Intelligence in Medicine | 2023 |
+| [Towards precise PICO extraction from abstracts of randomized controlled trials using a section-specific learning approach](https://doi.org/10.1093/bioinformatics/btad542) | Bioinformatics | 2023 |
+| [{EvidenceMap}:a three-level knowledge representation for medical evidence computation and comprehension](https://doi.org/10.1093/jamia/ocad036) | JAMIA | 2023 |
+| [Automated Matching of Patients to Clinical Trials: A Patient-Centric Natural Language Processing Approach for Pediatric Leukemia](https://doi.org/10.1200/CCI.23.00009) | JCO Clinical Cancer Informatics | 2023 |
+| [In a pilot study, automated real-time systematic review updates were feasible, accurate, and work-saving](https://doi.org/10.1016/j.jclinepi.2022.08.013) | Journal of Clinical Epidemiology | 2023 |
+| [Parsable Clinical Trial Eligibility Criteria Representation Using Natural Language Processing](https://pubmed.ncbi.nlm.nih.gov/37128426/) | AMIA | 2023 |
+| [Piloting an automated clinical trial eligibility surveillance and provider alert system based on artificial intelligence and standard data models](https://doi.org/10.1186/s12874-023-01916-6) | BMC Medical Research Methodology | 2023 |
+| [Automatic categorization of self-acknowledged limitations in randomized controlled trial publications](https://doi.org/10.1016/j.jbi.2024.104628) | Journal of Biomedical Informatics | 2024 |
+| [Utilizing Large Language Models for Enhanced Clinical Trial Matching: A Study on Automation in Patient Screening](https://doi.org/10.7759/cureus.60044) | Cureus | 2024 |
+| [{AutoCriteria}: a generalizable clinical trial eligibility criteria extraction system powered by large language models](https://doi.org/10.1093/jamia/ocad218) | JAMIA | 2024 |
+| [Automating Clinical Trial Eligibility Screening: Quantitative Analysis of GPT Models versus Human Expertise](https://doi.org/10.1145/3652037.3663922) | PETRA | 2024 |
+| [Matching Patients to Accelerate Clinical Trials (MPACT): Enabling Technology for Oncology Clinical Trial Workflow](https://doi.org/10.3233/SHTI231132) | Studies in Health Technology and Informatics | 2024 |
+| [The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation](https://doi.org/10.2196/51187) | Journal of Medical Internet Research | 2024 |
+| [AlpaPICO: Extraction of PICO frames from clinical trial documents using LLMs](https://doi.org/10.1016/j.ymeth.2024.04.005) | Methods | 2024 |
+| [BLINKtextsubscriptLSTM: BioLinkBERT and LSTM based approach for extraction of PICO frame from Clinical Trial Text](https://doi.org/10.1145/3632410.3632442) | CODS-COMAD | 2024 |
+| [PICO to PICOS: Weak Supervision to Extend Datasets with New Labels](https://doi.org/10.3233/SHTI240775) | Studies in Health Technology and Informatics | 2024 |
+| [TCGA-Reports: A machine-readable pathology report resource for benchmarking text-based AI models](https://doi.org/10.1016/j.patter.2024.100933) | Patterns | 2024 |
+| [Optimizing Clinical Trial Eligibility Design Using Natural Language Processing Models and Real-World Data: Algorithm Development and Validation](https://doi.org/10.2196/50800) | Journal of Medical Internet Research | 2024 |
+| [Generative AI for evidence-based medicine: A PICO GenAI for Synthesizing Clinical Case Reports](https://doi.org/10.1109/icc51166.2024.10622271) | IEEE ICC | 2024 |
 
 
 #### Relation Extraction
