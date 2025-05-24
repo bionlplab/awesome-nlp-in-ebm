@@ -39,7 +39,6 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation](https://doi.org/10.2196/51187) | JMIR | 2024 |
 | [Matching patients to clinical trials with large language models](https://doi.org/10.1038/s41467-024-53081-z) | Nature Communications | 2024 |
 | [A span-based model for extracting overlapping PICO entities from randomized controlled trial publications](https://doi.org/10.1093/jamia/ocae065) | JAMIA | 2024 |
-
 | [LeafAI: query generator for clinical cohort discovery rivaling a human programmer](https://doi.org/10.1093/jamia/ocad149) | JAMIA | 2023 |
 | [Deep learning to refine the identification of high-quality clinical research articles from the biomedical literature: Performance evaluation](https://doi.org/10.1016/j.jbi.2023.104384) | JBI | 2023 |
 | [ScanMedicine: An online search system for medical innovation](https://doi.org/10.1016/j.cct.2022.107042) | Contemporary Clinical Trials | 2023 |
@@ -150,19 +149,17 @@ Here is the Markdown table ordered by year (from latest to earliest):
 #### Quality Assessment
 | Paper | Venue | Date |
 |:------|:------|:-----|
-| [Machine Learning Assisted Citation Screening for Systematic Reviews](https://doi.org/10.3233/SHTI200171) | Studies in Health Technology and Informatics | 2020 |
-(https://doi.org/10.2196/51187) | Journal of Medical Internet Research | 2024 |
 | [Automatic categorization of self-acknowledged limitations in randomized controlled trial publications](https://doi.org/10.1016/j.jbi.2024.104628) | Journal of Biomedical Informatics | 2024 |
 | [Utilizing ChatGPT as a scientific reasoning engine to differentiate conflicting evidence and summarize challenges in controversial clinical questions](https://doi.org/10.1093/jamia/ocae100) | JAMIA | 2024 |
 | [Deep learning to refine the identification of high-quality clinical research articles from the biomedical literature: Performance evaluation](https://doi.org/10.1016/j.jbi.2023.104384) | Journal of Biomedical Informatics | 2023 |
 | [OncoCTMiner: streamlining precision oncology trial matching via molecular profile analysis](https://doi.org/10.1093/database/baad077) | Oxford Database | 2023 |
-| [The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation]
+| [The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation](https://doi.org/10.2196/51187) | Journal of Medical Internet Research | 2024 |
 | [State-of-the-Art Evidence Retriever for Precision Medicine: Algorithm Development and Validation](https://doi.org/10.2196/40743) | Journal of Medical Internet Research | 2022 |
 | [Validating GAN-BioBERT: A Methodology for Assessing Reporting Trends in Clinical Trials](https://doi.org/10.3389/fdgth.2022.878369) | Frontiers in Digital Health | 2022 |
 | [Transformer-based named entity recognition for parsing clinical trial eligibility criteria](https://doi.org/10.1145/3459930.3469560) | BCB | 2021 |
 | [Developing a fully automated evidence synthesis tool for identifying, assessing and collating the evidence](https://doi.org/10.1136/bmjebm-2018-111126) | BMJ Evidence-Based Medicine | 2021 |
 | [Towards Automated Detection of Contradictory Research Claims in Medical Literature Using Deep Learning Approach](https://doi.org/10.1109/CAMP51653.2021.9498061) | CAMP | 2021 |
-
+| [Machine Learning Assisted Citation Screening for Systematic Reviews](https://doi.org/10.3233/SHTI200171) | Studies in Health Technology and Informatics | 2020 |
 
 #### Evidence Ranking and Screening
 | Paper | Venue | Date |
@@ -278,7 +275,6 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Performance of ChatGPT in Answering Clinical Questions on the Practical Guideline of Blepharoptosis](https://doi.org/10.1007/s00266-024-04005-1) | Aesthetic Plastic Surgery | 2024 |
 | [Retrieval Augmented Generation enabled generative pre-trained transformer 4 (GPT-4) Performance for Clinical Trial Screening](https://doi.org/10.1056/AIoa2400181) | NEJM AI | 2024 |
 | [Development and evaluation of a large language model of ophthalmology in Chinese](https://doi.org/10.1136/bjo-2023-324526) | British Journal of Ophthalmology | 2024 |
-
 | [Aesthetic surgery advice and counseling from artificial intelligence: A rhinoplasty consultation with ChatGPT](https://doi.org/10.1007/s00266-023-03338-7) | Aesthetic Plastic Surgery | 2023 |
 | [Exploring ChatGPT's potential in facilitating adaptation of clinical guidelines: A case study of Diabetic Ketoacidosis guidelines](https://doi.org/10.7759/cureus.38784) | Cureus | 2023 |
 | [MediGPT: Exploring Potentials of Conventional and Large Language Models on Medical Data](https://doi.org/10.1109/ACCESS.2024.3428918) | IEEE Access | 2023 |
