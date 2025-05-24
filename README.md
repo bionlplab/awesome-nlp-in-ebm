@@ -26,7 +26,6 @@ The growth of medical literature demands automated tools to support clinicians i
   - [Drug Repurposing](#drug-repurposing)
   - [Question Answering](#question-answering)
 
-- [EBM Benchmark Datasets](#ebm-benchmark-datasets)
 
 ## NLP techniques for EBM
 
