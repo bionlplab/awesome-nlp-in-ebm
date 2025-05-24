@@ -21,9 +21,7 @@ The growth of medical literature demands automated tools to support clinicians i
   - [Evidence Summarization](#evidence-summarization)
 
 - [Apply & Assess – Adoption, refinement and research](#4-apply--assess--adoption-refinement-and-research)
-  - [Specialty-Specific adoption](#specialty-specific-adoption)
   - [Clinical Trial design and identification](#clinical-trial-design-and-identification)
-  - [Drug Repurposing](#drug-repurposing)
   - [Question Answering](#question-answering)
 
 
