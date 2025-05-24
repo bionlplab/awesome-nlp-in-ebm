@@ -34,11 +34,11 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | Paper | Venue | Date |
 |:------|:------|:-----|
 | [The Use of Generative AI for Scientific Literature Searches for Systematic Reviews: ChatGPT and Microsoft Bing AI Performance Evaluation](https://doi.org/10.2196/51187) | JMIR | 2024 |
-| [Matching patients to clinical trials with large language models](https://doi.org/10.1038/s41467-024-53081-z) | Nature Communications | 2024 |
+| [Matching patients to clinical trials with large language models](https://doi.org/10.1038/s41467-024-53081-z) | Nat Commun | 2024 |
 | [A span-based model for extracting overlapping PICO entities from randomized controlled trial publications](https://doi.org/10.1093/jamia/ocae065) | JAMIA | 2024 |
 | [LeafAI: query generator for clinical cohort discovery rivaling a human programmer](https://doi.org/10.1093/jamia/ocad149) | JAMIA | 2023 |
 | [Deep learning to refine the identification of high-quality clinical research articles from the biomedical literature: Performance evaluation](https://doi.org/10.1016/j.jbi.2023.104384) | JBI | 2023 |
-| [ScanMedicine: An online search system for medical innovation](https://doi.org/10.1016/j.cct.2022.107042) | Contemporary Clinical Trials | 2023 |
+| [ScanMedicine: An online search system for medical innovation](https://doi.org/10.1016/j.cct.2022.107042) | ontemp Clin Trials | 2023 |
 | [Automatically Summarizing Evidence from Clinical Trials: A Prototype Highlighting Current Challenges](https://doi.org/10.18653/v1/2023.eacl-demo.27) | ACL | 2023 |
 | [Investigation into Scaling-Up the SOAP Problem-Oriented Medical Record into a Clinical Case Study](https://doi.org/10.1109/ICHI57859.2023.00134) | ICHI | 2023 |
 | [In a pilot study, automated real-time systematic review updates were feasible, accurate, and work-saving](https://doi.org/10.1016/j.jclinepi.2022.08.013) | J Clin Epidemiol | 2023 |
@@ -163,7 +163,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 |:------|:------|:-----|
 | [AutoCriteria: a generalizable clinical trial eligibility criteria extraction system powered by large language models](https://doi.org/10.1093/jamia/ocad218) | JAMIA | 2024 |
 | [Towards autonomous living meta-analyses: A framework for automation of systematic review and meta-analyses](https://doi.org/10.3233/SHTI240427) | Studies in Health Technology and Informatics | 2024 |
-| [Matching patients to clinical trials with large language models](https://www.nature.com/articles/s41467-024-53081-z) | Nature Communications | 2024 |
+| [Matching patients to clinical trials with large language models](https://www.nature.com/articles/s41467-024-53081-z) | Nat Commun | 2024 |
 | [Using artificial intelligence to identify drugs for repurposing to treat l-DOPA induced dyskinesia](https://doi.org/10.1016/j.neuropharm.2024.109880) | Neuropharmacology | 2024 |
 | [OncoCTMiner: streamlining precision oncology trial matching via molecular profile analysis](https://doi.org/10.1093/database/baad077) | Oxford Database | 2023 |
 | [Piloting an automated clinical trial eligibility surveillance and provider alert system based on artificial intelligence and standard data models](https://doi.org/https://doi.org/10.1186/s12874-023-01916-6) | BMC Medical Research Methodology | 2023 |
@@ -225,7 +225,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Optimizing Clinical Trial Eligibility Design Using Natural Language Processing Models and Real-World Data: Algorithm Development and Validation](https://doi.org/10.2196/50800) | Journal of Medical Internet Research | 2024 |
 | [Automating clinical trial matches via natural language processing of synthetic electronic health records and clinical trial eligibility criteria](https://pubmed.ncbi.nlm.nih.gov/38827083/) | AMIA | 2024 |
 | [Distilling large language models for matching patients to clinical trials](https://doi.org/10.1093/jamia/ocae073) | JAMIA | 2024 |
-| [Matching patients to clinical trials with large language models](https://doi.org/10.1038/s41467-024-53081-z) | Nature Communications | 2024 |
+| [Matching patients to clinical trials with large language models](https://doi.org/10.1038/s41467-024-53081-z) | Nat Commun | 2024 |
 | [Text classification of cancer clinical trial eligibility criteria](https://pmc.ncbi.nlm.nih.gov/articles/PMC10785908/) | AMIA | 2024 |
 | [Large Language Models for Healthcare Data Augmentation: An Example on Patient-Trial Matching](https://pmc.ncbi.nlm.nih.gov/articles/PMC10785941/) | AMIA | 2024 |
 | [LeafAI: query generator for clinical cohort discovery rivaling a human programmer](https://doi.org/10.1093/jamia/ocad149) | JAMIA | 2023 |
