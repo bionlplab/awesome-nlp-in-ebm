@@ -109,7 +109,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [The anatomy of the SARS-CoV-2 biomedical literature](https://doi.org/10.2196/21169) | JMIR Med Inform | 2020 |
 | [Matching patients to clinical trials using semantically enriched document representation](https://doi.org/10.1016/j.jbi.2020.103406) | J Biomed Inform | 2020 |
 | [Clinical trial search: Using biomedical language understanding models for re-ranking](https://doi.org/10.1016/j.jbi.2020.103530) | J Biomed Inform | 2020 |
-| [Natural Language Processing for Mimicking Clinical Trial Recruitment in Critical Care](https://doi.org/10.1109/JBHI.2020.2977925) | IEEE Journal of Biomedical and Health Informatics | 2020 |
+| [Natural Language Processing for Mimicking Clinical Trial Recruitment in Critical Care](https://doi.org/10.1109/JBHI.2020.2977925) | IEEE J Biomed Health Inform | 2020 |
 | [Improving Disease Named Entity Recognition for Clinical Trial Matching](https://doi.org/10.1109/BIBM47256.2019.8983421) | BIBM | 2019 |
 | [Linking Knowledge Discovery In Clinical Notes And Massive Biomedical Literature Repositories](https://doi.org/10.1109/BIBM47256.2019.8983242) | BIBM | 2019 |
 | [Improving reference prioritisation with PICO recognition](https://doi.org/10.1186/s12911-019-0992-8) | BMC Med Inform Decis Mak | 2019 |
@@ -243,7 +243,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Evaluation of Criteria2Query: Towards Augmented Intelligence for Cohort Identification](https://doi.org/10.3233/SHTI220082) | Stud Health Technol Inform | 2022 |
 | [Improving the Efficiency of Clinical Trial Recruitment Using an Ensemble Machine Learning to Assist With Eligibility Screening](https://doi.org/10.1002/acr2.11289) | ACR Open Rheumatology | 2021 |
 | [Creating and evaluating chatbots as eligibility assistants for clinical trials: An active deep learning approach towards user-centered classification](https://doi.org/10.1145/3403575) | ACM Transactions on Computing for Healthcare | 2021 |
-| [EMR2vec: Bridging the gap between patient data and clinical trial](https://doi.org/10.1016/j.cie.2021.107236) | Computers & Industrial Engineering | 2021 |
+| [EMR2vec: Bridging the gap between patient data and clinical trial](https://doi.org/10.1016/j.cie.2021.107236) | Comput Ind Eng | 2021 |
 | [A probabilistic precision information retrieval model for personalized clinical trial recommendation based on heterogeneous data](https://doi.org/10.1109/icccnt51525.2021.9579891) | ICCCNT | 2021 |
 | [A knowledge base of clinical trial eligibility criteria](https://doi.org/10.1016/j.jbi.2021.103771) | J Biomed Inform | 2021 |
 | [Transformer-based named entity recognition for parsing clinical trial eligibility criteria](https://doi.org/10.1145/3459930.3469560) | BCB | 2021 |
@@ -252,7 +252,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Artificial intelligence tool for optimizing eligibility screening for clinical trials in a large community cancer center](https://doi.org/10.1200/CCI.19.00079) | JCO Clin Cancer Inform | 2020 |
 | [Matching patients to clinical trials using semantically enriched document representation](https://doi.org/10.1016/j.jbi.2020.103406) | J Biomed Inform | 2020 |
 | [Chia, a large annotated corpus of clinical trial eligibility criteria](https://doi.org/10.1038/s41597-020-00620-0) | Sci Data | 2020 |
-| [Natural Language Processing for Mimicking Clinical Trial Recruitment in Critical Care: A Semi-Automated Simulation Based on the LeoPARDS Trial](https://doi.org/10.1109/JBHI.2020.2977925) | IEEE Journal of Biomedical and Health Informatics | 2020 |
+| [Natural Language Processing for Mimicking Clinical Trial Recruitment in Critical Care: A Semi-Automated Simulation Based on the LeoPARDS Trial](https://doi.org/10.1109/JBHI.2020.2977925) | IEEE J Biomed Health Inform | 2020 |
 | [Improving Disease Named Entity Recognition for Clinical Trial Matching](https://doi.org/10.1109/BIBM47256.2019.8983421) | BIBM | 2019 |
 | [An approach for transgender population information extraction and summarization from clinical trial text](https://doi.org/10.1186/s12911-019-0768-1) | BMC Med Inform Decis Mak | 2019 |
 | [Medical Knowledge Infused Convolutional Neural Networks for Cohort Selection in Clinical Trials](https://doi.org/10.1093/jamia/ocz128) | J Am Med Inform Assoc | 2019 |
@@ -269,10 +269,10 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Assessment of a Large Language Model's Responses to Questions and Cases About Glaucoma and Retina Management](https://doi.org/10.1001/jamaophthalmol.2023.6917) | JAMA Ophthalmology | 2024 |
 | [TriSum: Learning summarization ability from large language models with structured rationale](https://doi.org/10.18653/v1/2024.naacl-long.154) | NAACL | 2024 |
 | [Generative AI for evidence-based medicine: A PICO GenAI for synthesizing clinical case reports](https://doi.org/10.1109/icc51166.2024.10622271) | IEEE ICC | 2024 |
-| [Performance of ChatGPT in Answering Clinical Questions on the Practical Guideline of Blepharoptosis](https://doi.org/10.1007/s00266-024-04005-1) | Aesthetic Plastic Surgery | 2024 |
+| [Performance of ChatGPT in Answering Clinical Questions on the Practical Guideline of Blepharoptosis](https://doi.org/10.1007/s00266-024-04005-1) | Aesthetic Plast Surg | 2024 |
 | [Retrieval Augmented Generation enabled generative pre-trained transformer 4 (GPT-4) Performance for Clinical Trial Screening](https://doi.org/10.1056/AIoa2400181) | NEJM AI | 2024 |
 | [Development and evaluation of a large language model of ophthalmology in Chinese](https://doi.org/10.1136/bjo-2023-324526) | British Journal of Ophthalmology | 2024 |
-| [Aesthetic surgery advice and counseling from artificial intelligence: A rhinoplasty consultation with ChatGPT](https://doi.org/10.1007/s00266-023-03338-7) | Aesthetic Plastic Surgery | 2023 |
+| [Aesthetic surgery advice and counseling from artificial intelligence: A rhinoplasty consultation with ChatGPT](https://doi.org/10.1007/s00266-023-03338-7) | Aesthetic Plast Surg | 2023 |
 | [Exploring ChatGPT's potential in facilitating adaptation of clinical guidelines: A case study of Diabetic Ketoacidosis guidelines](https://doi.org/10.7759/cureus.38784) | Cureus | 2023 |
 | [MediGPT: Exploring Potentials of Conventional and Large Language Models on Medical Data](https://doi.org/10.1109/ACCESS.2024.3428918) | IEEE Access | 2023 |
 | [Exploration of biomedical knowledge for recurrent glioblastoma using natural language processing deep learning models](https://doi.org/10.1186/s12911-022-02003-4) | BMC Med Inform Decis Mak | 2022 |
