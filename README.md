@@ -238,11 +238,6 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Matching patients to clinical trials using semantically enriched document representation](https://doi.org/10.1016/j.jbi.2020.103406) | Journal of Biomedical Informatics | 2020 |
 | [Chia, a large annotated corpus of clinical trial eligibility criteria](https://doi.org/10.1038/s41597-020-00620-0) | Scientific Data | 2020 |
 | [Natural Language Processing for Mimicking Clinical Trial Recruitment in Critical Care: A Semi-Automated Simulation Based on the LeoPARDS Trial](https://doi.org/10.1109/JBHI.2020.2977925) | IEEE Journal of Biomedical and Health Informatics | 2020 |
-| [Implementation of Machine Learning Pipelines for Clinical Practice: Development and Validation Study](https://doi.org/10.2196/37833) | Journal of Medical Internet Research | 2022 |
-| [The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria](https://doi.org/10.1038/s41597-022-01521-0) | Scientific Data | 2022 |
-| [Cohort-based Clinical Trial Retrieval](https://doi.org/10.1145/3503516.3503529) | ADCS | 2022 |
-| [A comparative study of pre-trained language models for named entity recognition in clinical trial eligibility criteria from multiple corpora](https://doi.org/10.1186/s12911-022-01967-7) | BMC Medical Informatics and Decision Making | 2022 |
-| [Evaluation of Criteria2Query: Towards Augmented Intelligence for Cohort Identification](https://doi.org/10.3233/SHTI220082) | Studies in Health Technology and Informatics | 2022 |
 | [Improving the Efficiency of Clinical Trial Recruitment Using an Ensemble Machine Learning to Assist With Eligibility Screening](https://doi.org/10.1002/acr2.11289) | ACR Open Rheumatology | 2021 |
 | [Creating and evaluating chatbots as eligibility assistants for clinical trials: An active deep learning approach towards user-centered classification](https://doi.org/10.1145/3403575) | ACM Transactions on Computing for Healthcare | 2021 |
 | [EMR2vec: Bridging the gap between patient data and clinical trial](https://doi.org/10.1016/j.cie.2021.107236) | Computers & Industrial Engineering | 2021 |
@@ -250,6 +245,11 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [A knowledge base of clinical trial eligibility criteria](https://doi.org/10.1016/j.jbi.2021.103771) | Journal of Biomedical Informatics | 2021 |
 | [Transformer-based named entity recognition for parsing clinical trial eligibility criteria](https://doi.org/10.1145/3459930.3469560) | BCB | 2021 |
 | [Batch enrollment for an artificial intelligence-guided intervention to lower neurologic events in patients with undiagnosed atrial fibrillation: rationale and design of a digital clinical trial](https://doi.org/10.1016/j.ahj.2021.05.006) | American Heart Journal | 2021 |
+| [Implementation of Machine Learning Pipelines for Clinical Practice: Development and Validation Study](https://doi.org/10.2196/37833) | Journal of Medical Internet Research | 2022 |
+| [The Leaf Clinical Trials Corpus: a new resource for query generation from clinical trial eligibility criteria](https://doi.org/10.1038/s41597-022-01521-0) | Scientific Data | 2022 |
+| [Cohort-based Clinical Trial Retrieval](https://doi.org/10.1145/3503516.3503529) | ADCS | 2022 |
+| [A comparative study of pre-trained language models for named entity recognition in clinical trial eligibility criteria from multiple corpora](https://doi.org/10.1186/s12911-022-01967-7) | BMC Medical Informatics and Decision Making | 2022 |
+| [Evaluation of Criteria2Query: Towards Augmented Intelligence for Cohort Identification](https://doi.org/10.3233/SHTI220082) | Studies in Health Technology and Informatics | 2022 |
 | [LeafAI: query generator for clinical cohort discovery rivaling a human programmer](https://doi.org/10.1093/jamia/ocad149) | JAMIA | 2023 |
 | [Automatic knowledge graph population with model-complete text comprehension for pre-clinical outcomes in the field of spinal cord injury](https://doi.org/10.1016/j.artmed.2023.102491) | Artificial Intelligence in Medicine | 2023 |
 | [Automated Matching of Patients to Clinical Trials: A Patient-Centric Natural Language Processing Approach for Pediatric Leukemia](https://doi.org/10.1200/CCI.23.00009) | JCO Clinical Cancer Informatics | 2023 |
