@@ -72,7 +72,7 @@ Here is the Markdown table ordered by year (from latest to earliest):
 | [Impact of size, location, symptomatic-nature and gender on the rupture of saccular intracranial aneurysms](https://ieeexplore.ieee.org/document/8508274) | ASONAM | 2018 |
 | [Improving Disease Named Entity Recognition for Clinical Trial Matching](https://doi.org/10.1109/BIBM47256.2019.8983421) | BIBM | 2019 |
 | [Linking Knowledge Discovery In Clinical Notes And Massive Biomedical Literature Repositories](https://doi.org/10.1109/BIBM47256.2019.8983242) | BIBM | 2019 |
-| [Improving reference prioritisation with PICO recognition](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-019-0974-4) | BMC Medical Informatics and Decision Making | 2019 |
+| [Improving reference prioritisation with PICO recognition](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-019-0992-8) | BMC Medical Informatics and Decision Making | 2019 |
 | [An approach for transgender population information extraction and summarization from clinical trial text](https://doi.org/10.1186/s12911-019-0768-1) | BMC Medical Informatics and Decision Making | 2019 |
 | [Medical Knowledge Infused Convolutional Neural Networks for Cohort Selection in Clinical Trials](https://doi.org/10.1093/jamia/ocz128) | JAMIA | 2019 |
 | [Clinical trial cohort selection based on multi-level rule-based natural language processing system](https://doi.org/10.1093/jamia/ocz109) | JAMIA | 2019 |
