@@ -297,8 +297,7 @@ Bibtex:
 
 ```
 @inproceedings{xu-etal-2025-natural,
-    title = "Natural Language Processing in Support of Evidence-based 
-    Medicine: A Scoping Review",
+    title = "Natural Language Processing in Support of Evidence-based Medicine: A Scoping Review",
     author = "Xu, Zihan  and
       Ma, Haotian  and
       Ding, Yihao  and
@@ -309,8 +308,7 @@ Bibtex:
       Nabende, Joyce  and
       Shutova, Ekaterina  and
       Pilehvar, Mohammad Taher",
-    booktitle = "Findings of the Association for Computational Linguistics: 
-    ACL 2025",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
     month = jul,
     year = "2025",
     address = "Vienna, Austria",
