@@ -1,4 +1,5 @@
 # Awesome - Natural Language Processing in Support of Evidence-based Medicine
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of Natural Language Processing (NLP) research papers in the field of Evidence-Based Medicine (EBM).  
 
