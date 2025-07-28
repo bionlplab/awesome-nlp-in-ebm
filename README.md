@@ -286,14 +286,19 @@ If you find our work helpful, please cite the following.
 MLA:
 
 ```
-Zihan Xu, Haotian Ma, Yihao Ding, Gongbo Zhang, Chunhua Weng, and Yifan Peng. 2025. Natural Language Processing in Support of Evidence-based Medicine: A Scoping Review. In Findings of the Association for Computational Linguistics: ACL 2025, pages 21421–21443, Vienna, Austria. Association for Computational Linguistics.
+Zihan Xu, Haotian Ma, Yihao Ding, Gongbo Zhang, Chunhua Weng, and Yifan Peng. 
+2025. Natural Language Processing in Support of Evidence-based Medicine: A 
+Scoping Review. In Findings of the Association for Computational Linguistics: 
+ACL 2025, pages 21421–21443, Vienna, Austria. Association for Computational 
+Linguistics.
 ```
 
 Bibtex:
 
 ```
 @inproceedings{xu-etal-2025-natural,
-    title = "Natural Language Processing in Support of Evidence-based Medicine: A Scoping Review",
+    title = "Natural Language Processing in Support of Evidence-based 
+    Medicine: A Scoping Review",
     author = "Xu, Zihan  and
       Ma, Haotian  and
       Ding, Yihao  and
@@ -304,16 +309,16 @@ Bibtex:
       Nabende, Joyce  and
       Shutova, Ekaterina  and
       Pilehvar, Mohammad Taher",
-    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    booktitle = "Findings of the Association for Computational Linguistics: 
+    ACL 2025",
     month = jul,
     year = "2025",
     address = "Vienna, Austria",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2025.findings-acl.1103/",
     pages = "21421--21443",
-    ISBN = "979-8-89176-256-5",
-    abstract = "Evidence-based medicine (EBM) is at the forefront of modern healthcare, emphasizing the use of the best available scientific evidence to guide clinical decisions. Due to the sheer volume and rapid growth of medical literature and the high cost of curation, there is a critical need to investigate Natural Language Processing (NLP) methods to identify, appraise, synthesize, summarize, and disseminate evidence in EBM. This survey presents an in-depth review of 129 research studies on leveraging NLP for EBM, illustrating its pivotal role in enhancing clinical decision-making processes. The paper systematically explores how NLP supports the five fundamental steps of EBM{---}Ask, Acquire, Appraise, Apply, and Assess. The review not only identifies current limitations within the field but also proposes directions for future research, emphasizing the potential for NLP to revolutionize EBM by refining evidence extraction, evidence synthesis, appraisal, summarization, enhancing data comprehensibility, and facilitating a more efficient clinical workflow."
 }
+
 ```
 
 # Acknowledgement
