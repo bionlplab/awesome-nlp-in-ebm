@@ -283,7 +283,6 @@ Here is the Markdown table ordered by year (from latest to earliest):
 # Citation
 If you find our work helpful, please cite the following.
 
-MLA:
 
 ```
 Zihan Xu, Haotian Ma, Yihao Ding, Gongbo Zhang, Chunhua Weng, and Yifan Peng. 
@@ -292,8 +291,6 @@ Scoping Review. In Findings of the Association for Computational Linguistics:
 ACL 2025, pages 21421–21443, Vienna, Austria. Association for Computational 
 Linguistics.
 ```
-
-Bibtex:
 
 ```
 @inproceedings{xu-etal-2025-natural,
